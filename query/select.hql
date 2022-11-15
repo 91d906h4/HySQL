@@ -1,0 +1,5 @@
+FROM test1
+SELECT name AS Name, age
+qwe AS QWE
+WHERE name LIKE ^H|^K
+ORDER BY QWE ASC

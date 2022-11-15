@@ -1,0 +1,1 @@
+DELETE * FROM test1 WHERE age = 100
