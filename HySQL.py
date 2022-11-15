@@ -6,7 +6,7 @@ from collections import defaultdict
 from tabulate import tabulate
 
 # All instructions list
-instructions = ['DELETE', 'FROM', 'SELECT', 'WHERE', 'UPDATE', 'INSERT', 'JOIN', 'SET', 'ORDER', 'GROUP', 'VALUE', 'CREATE', 'DROP', 'TOP']
+instructions = ['DELETE', 'FROM', 'SELECT', 'WHERE', 'UPDATE', 'INSERT', 'JOIN', 'SET', 'ORDER', 'GROUP', 'VALUE', 'CREATE', 'DROP', 'LIMIT']
 
 # Error handler
 def error(error: str, info: str, ifExit=True) -> None:
@@ -44,63 +44,67 @@ def whereFilter(head: list, body: list, query_where: list, IorX: str) -> list:
     array = [(x if IorX == 'x' else i) for i, x in enumerate(body) if i not in array]
     return array
 
-# Re-concat string from array
-def stringConcat(array: list) -> list:
-    trigger = False
-    l, i = 1, 0
-    while i < l:
-        x, l = str(array[i]), len(array)
-        if x[0] == "'" and x[-1] == "'":
-            array[i] = x[1:-1]
-            i += 1
-            continue
-        elif "'" in x and trigger == False:
-            trigger = not trigger
-            array[i] = x.replace("'", '')
-        elif "'" in x and trigger == True:
-            trigger = not trigger
-            array[i - 1] += ' ' + x.replace("'", '')
-            del array[i]
-        elif "'" not in x and trigger == True:
-            array[i - 1] += ' ' + x
-            del array[i]
-            i -= 1
+# String preprocess
+def stringPreprocess(input: str) -> list:
+    # Split string
+    array, temp = [], ''
+    inString = False
+    for char in input + ' ':
+        if char in [' ', '\n'] and inString == False:
+            array.append(temp)
+            temp = ''
+        elif char == "'" and inString == False:
+            temp += char
+            inString = True
+        elif char == "'" and inString == True:
+            temp += char
+            inString = False
+        else:
+            temp += char
+
+    # Clean string
+    temp = []
+    for text in array:
+        text = str(text).strip()
+
+        if text == '': continue
+        if text[-1] == ',': text = text[:-1]
+        if text[0] == '(': text = text[1:]
+        if text[-1] == ')': text = text[:-1]
+        if text[0] == "'": text = text[1:]
+        if text[-1] == "'": text = text[:-1]
 
         # convert to int
         try:
-            array[i] = int(array[i])
-            i += 1
+            text = int(text)
+            temp.append(text)
             continue
         except: pass
 
         # convert to float
         try:
-            array[i] = float(array[i])
-            i += 1
+            text = float(text)
+            temp.append(text)
             continue
         except: pass
 
-        # go to next string
-        i += 1
+        temp.append(text)
 
-    return array
+    return temp
 
 class HySQL:
     def __init__(self, input: str) -> None:
-        self.input = input.replace(' ', '\n').split('\n')
-        while '' in self.input: self.input.remove('')
+        self.input = input
         self.mode = ''
         self.query = defaultdict(list)
 
     def format(self):
+        self.input = stringPreprocess(self.input)
+
         instruction = ''
         for x in self.input:
-            if x.upper() in instructions: instruction = x.upper()
-            elif x != '': self.query[instruction].append(x)
-        for x in self.query:
-            self.query[x] = [str(x).replace('(', '').replace(')', '').replace(',', '').strip() for x in self.query[x]]
-            while '' in self.query[x]: self.query[x].remove('')
-            self.query[x] = stringConcat(self.query[x])
+            if isinstance(x, str) and x.upper() in instructions: instruction = x.upper()
+            else: self.query[instruction].append(x)
 
         if 'UPDATE' in self.query:
             self.mode = 'UPDATE'
@@ -154,42 +158,42 @@ class HySQL:
             path = query['FROM'][0]
             if not os.path.isfile(f'./database/{path}.table'): error('Error', f'Table {path} not found.')
 
-            with open(f'./database/{path}.table', 'r', encoding="utf-8") as f:
-                # Load database
-                dataset = json.load(f)
+            # Load database
+            f = open(f'./database/{path}.table', 'r', encoding="utf-8")
+            dataset = json.load(f)
 
-                # Order
-                if 'ORDER' in query:
-                    if query['ORDER'][0] != 'BY': error('Syntax Error', '"ORDER" must used with "BY".')
-                    query['ORDER'] = query['ORDER'][1:]
+            # Order
+            if 'ORDER' in query:
+                if query['ORDER'][0] != 'BY': error('Syntax Error', '"ORDER" must used with "BY".')
+                query['ORDER'] = query['ORDER'][1:]
 
-                    # Preprocess
-                    l = len(query['ORDER'])
-                    if l & 1: error('Value Error', '"ORDER" must be used with "ASC" ro "DESC"')
-                    for n in range(0, l, 2): query['ORDER'].append([query['ORDER'][n + 1], query['ORDER'][n]])
-                    query['ORDER'] = query['ORDER'][l:]
-                    
-                    # Sort json
-                    for sort, key in query['ORDER']:
-                        try: dataset.sort(key=lambda x: x[key], reverse=(True if sort == 'DESC' else False))
-                        except: error('Value Error', f'Cannot sort by "{key}". Please make sure every data has this row.', ifExit=False)
+                # Preprocess
+                l = len(query['ORDER'])
+                if l & 1: error('Value Error', '"ORDER" must be used with "ASC" ro "DESC"')
+                for n in range(0, l, 2): query['ORDER'].append([query['ORDER'][n + 1], query['ORDER'][n]])
+                query['ORDER'] = query['ORDER'][l:]
+                
+                # Sort json
+                for sort, key in query['ORDER']:
+                    try: dataset.sort(key=lambda x: x[key], reverse=(True if sort == 'DESC' else False))
+                    except: error('Value Error', f'Cannot sort by "{key}". Please make sure every data has this row.', ifExit=False)
 
-                # Select all rows from dataset
-                head = []
-                for row in dataset:
-                    for x in row:
-                        if x not in head: head.append(x)
+            # Select all rows from dataset
+            head = []
+            for row in dataset:
+                for x in row:
+                    if x not in head: head.append(x)
 
-                # Select all cols from dataset
-                body = []
-                for data in dataset:
-                    temp = []
-                    for index in head:
-                        if index in data: temp.append(data[index])
-                        else: temp.append(None)
-                    body.append(temp)
+            # Select all cols from dataset
+            body = []
+            for data in dataset:
+                temp = []
+                for index in head:
+                    if index in data: temp.append(data[index])
+                    else: temp.append(None)
+                body.append(temp)
 
-                if 'WHERE' in query: body = whereFilter(head, body, query['WHERE'], IorX='x')
+            if 'WHERE' in query: body = whereFilter(head, body, query['WHERE'], IorX='x')
 
             if '*' not in query['SELECT']:
                 # Get selected rows
@@ -197,7 +201,7 @@ class HySQL:
                 for row in query['SELECT']:
                     if type(row) == list and row[0] not in selected_head: selected_head.append(row[0])
                     elif row not in selected_head: selected_head.append(row)
-                selected_head = set(list(range(len(head)))) - set([head.index(x) for x in selected_head])
+                selected_head = set(list(range(len(head)))) - set([head.index(x) if x in head else None for x in selected_head])
 
                 # Remove unselected rows from head
                 for index, j in enumerate(selected_head): head = head[:j - index] + head[j - index + 1:]
@@ -208,7 +212,8 @@ class HySQL:
 
             # AS function
             for row in query['SELECT']:
-                if type(row) == list: head[head.index(row[0])] = row[1]
+                if type(row) == list:
+                    if row[0] in head: head[head.index(row[0])] = row[1]
             
             if 'TOP' in query: body = body[:int(query['TOP'][0])]
 
@@ -224,96 +229,97 @@ class HySQL:
             path = query['UPDATE'][0]
             if not os.path.isfile(f'./database/{path}.table'): error('Error', f'Table {path} not found.')
 
-            with open(f'./database/{path}.table', 'r') as f:
-                # Load database
-                dataset = json.load(f)
+            # Load database
+            f = open(f'./database/{path}.table', 'r')
+            dataset = json.load(f)
 
-                # Select all rows from dataset
-                head = []
-                for row in dataset:
-                    for x in row:
-                        if x not in head: head.append(x)
+            # Select all rows from dataset
+            head = []
+            for row in dataset:
+                for x in row:
+                    if x not in head: head.append(x)
 
-                # Select all cols from dataset
-                body = []
-                for data in dataset:
-                    temp = []
-                    for index in head:
-                        if index in data: temp.append(data[index])
-                        else: temp.append(None)
-                    body.append(temp)
+            # Select all cols from dataset
+            body = []
+            for data in dataset:
+                temp = []
+                for index in head:
+                    if index in data: temp.append(data[index])
+                    else: temp.append(None)
+                body.append(temp)
 
-                if 'WHERE' in query: update = whereFilter(head, body, query['WHERE'], IorX='i')
+            if 'WHERE' in query: update = whereFilter(head, body, query['WHERE'], IorX='i')
 
-                # Update database
-                for i in range(len(dataset)):
-                    if i in update:
-                        for sets in query['SET']:
-                            dataset[i][sets[0]] = sets[1]
+            # Update database
+            for i in range(len(dataset)):
+                if i in update:
+                    for sets in query['SET']:
+                        dataset[i][sets[0]] = sets[1]
 
-                # Store to database
-                with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps(dataset, indent=4))
+            # Store to database
+            with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps(dataset, indent=4))
 
-                print(f'Updated successfully.')
+            print(f'Updated successfully.')
 
         if mode == 'INSERT':
             path = query['INSERT'][1]
             if not os.path.isfile(f'./database/{path}.table'): error('Error', f'Table {path} not found.')
             elif query['INSERT'][0] != 'INTO': error('Syntax Error', '"INSERT" must be user with "INTO"')
 
-            with open(f'./database/{path}.table', 'r') as f:
-                # Preprocess
-                query['INSERT'] = query['INSERT'][2:]
+            f = open(f'./database/{path}.table', 'r')
 
-                # Input check
-                if len(query['INSERT']) != len(query['VALUE']): error('Value Error', 'Insert columns must be same as value columns.')
+            # Preprocess
+            query['INSERT'] = query['INSERT'][2:]
 
-                # Load database
-                dataset = json.load(f)
-                dataset += [{x: y for x, y in zip(query['INSERT'], query['VALUE'])}]
+            # Input check
+            if len(query['INSERT']) != len(query['VALUE']): error('Value Error', 'Insert columns must be same as value columns.')
 
-                # Store to database
-                with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps(dataset, indent=4))
+            # Load database
+            dataset = json.load(f)
+            dataset += [{x: y for x, y in zip(query['INSERT'], query['VALUE'])}]
 
-                print(f'Inserted successfully.')
+            # Store to database
+            with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps(dataset, indent=4))
+
+            print(f'Inserted successfully.')
 
         if mode == 'DELETE':
             path = query['FROM'][0]
             if not os.path.isfile(f'./database/{path}.table'): error('Error', f'Table {path} not found.')
 
-            with open(f'./database/{path}.table', 'r') as f:
-                # Load database
-                dataset = json.load(f)
+            # Load database
+            f = open(f'./database/{path}.table', 'r')
+            dataset = json.load(f)
 
-                # Select all rows from dataset
-                head = []
-                for row in dataset:
-                    for x in row:
-                        if x not in head: head.append(x)
+            # Select all rows from dataset
+            head = []
+            for row in dataset:
+                for x in row:
+                    if x not in head: head.append(x)
 
-                # Select all cols from dataset
-                body = []
-                for data in dataset:
-                    temp = []
-                    for index in head:
-                        if index in data: temp.append(data[index])
-                        else: temp.append(None)
-                    body.append(temp)
+            # Select all cols from dataset
+            body = []
+            for data in dataset:
+                temp = []
+                for index in head:
+                    if index in data: temp.append(data[index])
+                    else: temp.append(None)
+                body.append(temp)
 
-                if 'WHERE' in query: delete = whereFilter(head, body, query['WHERE'], IorX='i')
+            if 'WHERE' in query: delete = whereFilter(head, body, query['WHERE'], IorX='i')
 
-                for i, x in enumerate(dataset):
-                    if i in delete:
-                        if '*' in query['DELETE']: dataset[i] = ''
-                        else:
-                            for j in query['DELETE']:
-                                if j in dataset[i]: del dataset[i][j]
-                dataset = [x for x in dataset if x != '']
+            for i, x in enumerate(dataset):
+                if i in delete:
+                    if '*' in query['DELETE']: dataset[i] = ''
+                    else:
+                        for j in query['DELETE']:
+                            if j in dataset[i]: del dataset[i][j]
+            dataset = [x for x in dataset if x != '']
 
-                # Store to database
-                with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps(dataset, indent=4))
+            # Store to database
+            with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps(dataset, indent=4))
 
-                print(f'Deleted successfully.')
+            print(f'Deleted successfully.')
 
         if mode == 'CREATE':
             path = query['CREATE'][0]

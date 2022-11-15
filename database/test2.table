@@ -1,10 +1,10 @@
 [
     {
         "name": "Henry",
-        "age": 20
+        "like": "movie"
     },
     {
         "name": "John",
-        "age": 30
+        "like": "Anime"
     }
 ]

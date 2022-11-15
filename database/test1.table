@@ -2,8 +2,7 @@
     {
         "name": "Henry",
         "age": 20,
-        "text": "Hello",
-        "qwe": 123
+        "text": "Hello"
     },
     {
         "name": "John",
@@ -13,12 +12,6 @@
     {
         "name": "Ketty",
         "age": 22,
-        "text": "asd qwe",
-        "aa": "AA"
-    },
-    {
-        "name": "Ketty",
-        "age": 123.2,
-        "text": "Hello World!"
+        "text": "asd qwe"
     }
 ]
