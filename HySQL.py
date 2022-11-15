@@ -22,6 +22,7 @@ def checker(head: list, rows: list, conditions: list) -> bool:
     elif condition == '<': return str(temp[row]) < str(value)
     elif condition == '>=': return str(temp[row]) >= str(value)
     elif condition == '<=': return str(temp[row]) <= str(value)
+    elif condition == '!=': return str(temp[row]) != str(value)
     elif condition == 'LIKE': return temp[row] != None and re.match(value, str(temp[row]))
     return False
 
