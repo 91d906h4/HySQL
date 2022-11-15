@@ -1,8 +1,9 @@
+import json
 import os
 import re
-import json
-from tabulate import tabulate
 from collections import defaultdict
+
+from tabulate import tabulate
 
 # All instructions list
 instructions = ['DELETE', 'FROM', 'SELECT', 'WHERE', 'UPDATE', 'INSERT', 'JOIN', 'SET', 'ORDER', 'GROUP', 'VALUE', 'CREATE', 'DROP', 'TOP']
