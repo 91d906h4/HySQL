@@ -48,6 +48,7 @@ def whereFilter(head: list, body: list, query_where: list, IorX: str) -> list:
                     if i in array: del array[i]
     array = list(array.keys())
 
+    # Mode 'i': return index, 'x': return raw data.
     if IorX == 'x':
         for i, x in enumerate(array): array[i] = body[x]
 
@@ -58,15 +59,19 @@ def stringPreprocess(input: str) -> list:
     # Split string
     array, temp, inString = [], '', False
     for char in input + ' ':
+        # If current char is space or new-line, append the string(temp) to the result list.
         if char in [' ', '\n'] and inString == False:
             array.append(temp)
             temp = ''
+        # If current char is single apostrophe('), start record input as string (string will not ignore spaces and commas).
         elif char == "'" and inString == False:
             temp += char
             inString = True
+        # End string recording.
         elif char == "'" and inString == True:
             temp += char
             inString = False
+        # If current char is not in a string, then ignore spaces and commas.
         elif char in [',', ' '] and inString == False: continue
         else: temp += char
 
@@ -232,7 +237,7 @@ class HySQL:
                     for index, j in enumerate(selected_head): body[i] = body[i][:j - index] + body[i][j - index + 1:]
             # print('end select     ', '==>', time.time())
 
-            # AS function
+            # 'AS' function
             for row in query['SELECT']:
                 if type(row) == list:
                     if row[0] in head: head[head.index(row[0])] = row[1]
@@ -241,9 +246,10 @@ class HySQL:
             if view:
                 tabel = tabulate(body, headers=head, tablefmt="fancy_grid")
                 print(tabel)
+
             print(f'Excuted successfully.')
 
-            # Return result
+            # Return result in json
             return [{x: y for x, y in zip(head, data)} for data in body]
 
         if mode == 'UPDATE':
@@ -285,7 +291,7 @@ class HySQL:
             if not os.path.isfile(f'./database/{path}.table'): error('Error', f'Table {path} not found.')
             elif query['INSERT'][0] != 'INTO': error('Syntax Error', '"INSERT" must be user with "INTO"')
 
-            # Preprocess
+            # Remove 'INSERT' keyword and table name
             query['INSERT'] = query['INSERT'][2:]
 
             # Load database
@@ -295,6 +301,7 @@ class HySQL:
             # Input check
             if len(query['INSERT']) != len(query['VALUE']): error('Value Error', 'Insert columns must be same as value columns.')
 
+            # Insert data to table
             dataset += [{x: y for x, y in zip(query['INSERT'], query['VALUE'])}]
 
             # Store to database
@@ -362,4 +369,4 @@ class HySQL:
                 if not os.path.isfile(f'./database/{table}.table'): error('Error', f'Table {table} not found.', ifExit=False)
                 else:
                     os.remove(f'./database/{table}.table')
-                    print(f'Table {table} has been droped.')
+                    print(f'Table {table} has been droped successfully.')
