@@ -4,6 +4,7 @@ from HySQL import HySQL
 from flask import Flask, request
 
 server = Flask(__name__)
+
 @server.route('/')
 def index():
     if request.args.get('query') == None:
@@ -12,7 +13,6 @@ def index():
         try:
             # Query :
             # SELECT * FROM city WHERE CountryCode != 'AFG' ORDER BY Population, ID DESC LIMIT 10
-            # 
             # Just replace all space with URL encode %20
             # /?query=SELECT%20*%20FROM%20city%20WHERE%20CountryCode%20!=%20%27AFG%27%20ORDER%20BY%20Population,%20ID%20DESC%20LIMIT%2010
             query = request.args.get('query') 
