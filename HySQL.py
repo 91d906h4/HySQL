@@ -1,54 +1,62 @@
 import json
 import os
 import re
+import time
 from collections import defaultdict
 
 from tabulate import tabulate
 
 # All instructions list
-instructions = ['DELETE', 'FROM', 'SELECT', 'WHERE', 'UPDATE', 'INSERT', 'JOIN', 'SET', 'ORDER', 'GROUP', 'VALUE', 'CREATE', 'DROP', 'LIMIT']
+instructions = ['DELETE', 'FROM', 'SELECT', 'WHERE', 'UPDATE', 'INSERT', 'JOIN', 'SET', 'ORDER', 'GROUP', 'VALUE', 'CREATE', 'DROP', 'LIMIT', 'ON']
 
 # Error handler
 def error(error: str, info: str, ifExit=True) -> None:
     print(f'{error}: {info}')
     if ifExit: exit()
 
-# Check the condition is True or False
+# Condition checker
 def checker(head: list, rows: list, conditions: list) -> bool:
     temp = {x: y for x, y in zip(head, rows)}
     row, condition, value = conditions
     if row not in temp: return False
-    elif condition == '=': return str(temp[row]) == str(value)
-    elif condition == '>': return str(temp[row]) > str(value)
-    elif condition == '<': return str(temp[row]) < str(value)
-    elif condition == '>=': return str(temp[row]) >= str(value)
-    elif condition == '<=': return str(temp[row]) <= str(value)
-    elif condition == '!=': return str(temp[row]) != str(value)
-    elif condition == 'LIKE': return temp[row] != None and re.match(value, str(temp[row]))
-    return False
+    elif condition == '=': return not str(temp[row]) == str(value)
+    elif condition == '>': return not str(temp[row]) > str(value)
+    elif condition == '<': return not str(temp[row]) < str(value)
+    elif condition == '>=': return not str(temp[row]) >= str(value)
+    elif condition == '<=': return not str(temp[row]) <= str(value)
+    elif condition == '!=': return not str(temp[row]) != str(value)
+    elif condition == 'LIKE': return not re.match(value, str(temp[row]))
+    return True
 
 # Return all results that match the condition
 def whereFilter(head: list, body: list, query_where: list, IorX: str) -> list:
-    array = []
+    len_body = len(body)
+    array = {x: x for x in range(len_body)}
+
     for i, bd in enumerate(body):
         if query_where['AND'] != []:
             for where in query_where['AND']:
-                if not checker(head, bd, where): array.append(i)
+                if checker(head, bd, where):
+                    if i in array: del array[i]
         if query_where['OR'] != []:
             for where in query_where['OR']:
-                if checker(head, bd, where):
-                    if i in array: array.remove(i)
+                if not checker(head, bd, where):
+                    if i in array: array[i] = i
         if query_where['NOT'] != []:
             for where in query_where['NOT']:
-                if checker(head, bd, where): array.append(i)
-    array = [(x if IorX == 'x' else i) for i, x in enumerate(body) if i not in array]
+                if not checker(head, bd, where):
+                    if i in array: del array[i]
+    array = list(array.keys())
+
+    if IorX == 'x':
+        for i, x in enumerate(array): array[i] = body[x]
+
     return array
 
 # String preprocess
 def stringPreprocess(input: str) -> list:
     # Split string
-    array, temp = [], ''
-    inString = False
+    array, temp, inString = [], '', False
     for char in input + ' ':
         if char in [' ', '\n'] and inString == False:
             array.append(temp)
@@ -59,29 +67,29 @@ def stringPreprocess(input: str) -> list:
         elif char == "'" and inString == True:
             temp += char
             inString = False
-        else:
-            temp += char
+        elif char in [',', ' '] and inString == False: continue
+        else: temp += char
 
     # Clean string
     temp = []
     for text in array:
         text = str(text).strip()
 
+        if len(text) > 0 and text[-1] == ',': text = text[:-1]
+        if len(text) > 0 and text[0] == '(': text = text[1:]
+        if len(text) > 0 and text[-1] == ')': text = text[:-1]
+        if len(text) > 0 and text[0] == "'": text = text[1:]
+        if len(text) > 0 and text[-1] == "'": text = text[:-1]
         if text == '': continue
-        if text[-1] == ',': text = text[:-1]
-        if text[0] == '(': text = text[1:]
-        if text[-1] == ')': text = text[:-1]
-        if text[0] == "'": text = text[1:]
-        if text[-1] == "'": text = text[:-1]
 
-        # convert to int
+        # Try to convert to int
         try:
             text = int(text)
             temp.append(text)
             continue
         except: pass
 
-        # convert to float
+        # Try to convert to float
         try:
             text = float(text)
             temp.append(text)
@@ -93,10 +101,26 @@ def stringPreprocess(input: str) -> list:
     return temp
 
 class HySQL:
-    def __init__(self, input: str) -> None:
+    def __init__(self, input='') -> None:
         self.input = input
-        self.mode = ''
+        self.mode = '' # Modes: SELECT, INSERT, UPDATE, DELETE, CREATE, DROP (the modes are exclusive.)
         self.query = defaultdict(list)
+
+    # API functions
+    def ORDER_BY(self, input) -> None: self.input += ' ORDER BY ' + str(input)
+    def GROUP_BY(self, input) -> None: self.input += ' GROUP BY ' + str(input)
+    def SELECT(self, input) -> None: self.input += ' SELECT ' + str(input)
+    def INSERT(self, input) -> None: self.input += ' INSERT ' + str(input)
+    def DELETE(self, input) -> None: self.input += ' DELETE ' + str(input)
+    def UPDATE(self, input) -> None: self.input += ' UPDATE ' + str(input)
+    def CREATE(self, input) -> None: self.input += ' CREATE ' + str(input)
+    def LIMIT(self, input) -> None: self.input += ' LIMIT ' + str(input)
+    def VALUE(self, input) -> None: self.input += ' VALUE ' + str(input)
+    def WHERE(self, input) -> None: self.input += ' WHERE ' + str(input)
+    def FROM(self, input) -> None: self.input += ' FROM ' + str(input)
+    def DROP(self, input) -> None: self.input += ' DROP ' + str(input)
+    def JOIN(self, input) -> None: self.input += ' JOIN ' + str(input)
+    def SET(self, input) -> None: self.input += ' SET ' + str(input)
 
     def format(self):
         self.input = stringPreprocess(self.input)
@@ -106,34 +130,18 @@ class HySQL:
             if isinstance(x, str) and x.upper() in instructions: instruction = x.upper()
             else: self.query[instruction].append(x)
 
-        if 'UPDATE' in self.query:
-            self.mode = 'UPDATE'
-            self.query['UPDATE'] = [str(x).replace(',', '') for x in self.query['UPDATE'] if x not in ['', ',']]
-        if 'DELETE' in self.query:
-            self.mode = 'DELETE'
-            self.query['DELETE'] = [str(x).replace(',', '') for x in self.query['DELETE'] if x not in ['', ',']]
-        if 'CREATE' in self.query:
-            self.mode = 'CREATE'
-            self.query['CREATE'] = [str(x).replace(',', '') for x in self.query['CREATE'] if x not in ['', ',']]
-        if 'DROP' in self.query:
-            self.mode = 'DROP'
-            self.query['DROP'] = [str(x).replace(',', '') for x in self.query['DROP'] if x not in ['', ',']]
-        if 'FROM' in self.query:
-            self.query['FROM'] = [str(x).replace(',', '') for x in self.query['FROM'] if x not in ['', ',']]
-        if 'INSERT' in self.query:
-            self.mode = 'INSERT'
-            self.query['INSERT'] = [str(x).replace(',', '') for x in self.query['INSERT'] if x not in ['', ',']]
-        if 'ORDER' in self.query:
-            self.query['ORDER'] = [str(x).replace(',', '') for x in self.query['ORDER'] if x not in ['', ',']]
+        for x in ['UPDATE', 'DELETE', 'CREATE', 'INSERT', 'DROP']:
+            if x in self.query:
+                self.mode = x
+                break
+
         if 'SELECT' in self.query:
             self.mode = 'SELECT'
-            self.query['SELECT'] = [str(x).replace(',', '') for x in self.query['SELECT']]
             asIndex = [i for i, x in enumerate(self.query['SELECT']) if x == 'AS']
             temp = []
             for i in asIndex: self.query['SELECT'][i - 1:i + 2] = [[self.query['SELECT'][i - 1], self.query['SELECT'][i + 1]], '', '']
             self.query['SELECT'] = [x for x in self.query['SELECT'] if x != '']
         if 'SET' in self.query:
-            self.query['SET'] = [str(x).replace(',', '') for x in self.query['SET']]
             l = len(self.query['SET'])
             for n in range(0, l, 3): self.query['SET'].append([self.query['SET'][n], self.query['SET'][n + 2]])
             self.query['SET'] = self.query['SET'][l:]
@@ -148,53 +156,66 @@ class HySQL:
                 for n in range(0, l, 3): temp[x].append([temp[x][n], temp[x][n + 1], temp[x][n + 2]])
                 temp[x] = temp[x][l:]
             self.query['WHERE'] = temp
+        if 'ORDER' in self.query:
+            if self.query['ORDER'][0] != 'BY': error('Syntax Error', '"ORDER" must used with "BY".')
+            self.query['ORDER'] = self.query['ORDER'][1:]
+            l, n, temp = len(self.query['ORDER']), 0, []
+            while n < l:
+                if self.query['ORDER'][n + 1] not in ['ASC', 'DESC']:
+                    temp.append(['ASC', self.query['ORDER'][n]])
+                    n += 1
+                else:
+                    temp.append([self.query['ORDER'][n + 1], self.query['ORDER'][n]])
+                    n += 2
+            self.query['ORDER'] = temp
 
         return self.mode, self.query
 
-    def excute(self):
+    def excute(self, view=True):
         mode, query = self.format()
 
         if mode == 'SELECT':
-            path = query['FROM'][0]
-            if not os.path.isfile(f'./database/{path}.table'): error('Error', f'Table {path} not found.')
+            for path in query['FROM']:
+                if not os.path.isfile(f'./database/{path}.table'): error('Error', f'Table {path} not found.')
 
             # Load database
-            f = open(f'./database/{path}.table', 'r', encoding="utf-8")
-            dataset = json.load(f)
+            # print('start read file', '==>', time.time())
+            dataset = []
+            for path in query['FROM']:
+                f = open(f'./database/{path}.table', 'r', encoding='UTF-8')
+                dataset += json.load(f)
+                f.close()
+            # print('end read file  ', '==>', time.time())
 
             # Order
-            if 'ORDER' in query:
-                if query['ORDER'][0] != 'BY': error('Syntax Error', '"ORDER" must used with "BY".')
-                query['ORDER'] = query['ORDER'][1:]
+            # print('start sort     ', '==>', time.time())
+            for sort, key in query['ORDER']:
+                try: dataset.sort(key=lambda x: x[key], reverse=(True if sort == 'DESC' else False))
+                except: error('Value Error', f'Cannot sort by "{key}". Please make sure every data has this row.', ifExit=False)
+            # print('end sort       ', '==>', time.time())
 
-                # Preprocess
-                l = len(query['ORDER'])
-                if l & 1: error('Value Error', '"ORDER" must be used with "ASC" ro "DESC"')
-                for n in range(0, l, 2): query['ORDER'].append([query['ORDER'][n + 1], query['ORDER'][n]])
-                query['ORDER'] = query['ORDER'][l:]
-                
-                # Sort json
-                for sort, key in query['ORDER']:
-                    try: dataset.sort(key=lambda x: x[key], reverse=(True if sort == 'DESC' else False))
-                    except: error('Value Error', f'Cannot sort by "{key}". Please make sure every data has this row.', ifExit=False)
-
+            # print('start head body', '==>', time.time())
             # Select all rows from dataset
             head = []
             for row in dataset:
                 for x in row:
                     if x not in head: head.append(x)
 
+            # print('start head body1', '==>', time.time())
             # Select all cols from dataset
             body = []
             for data in dataset:
                 temp = []
-                for index in head:
-                    if index in data: temp.append(data[index])
-                    else: temp.append(None)
+                for index in head: temp.append(data[index] if index in data else None)
                 body.append(temp)
+            # print('end head body  ', '==>', time.time())
 
+            # print('start filter   ', '==>', time.time())
             if 'WHERE' in query: body = whereFilter(head, body, query['WHERE'], IorX='x')
+            if 'LIMIT' in query: body = body[:int(query['LIMIT'][0])]
+            # print('end filter     ', '==>', time.time())
 
+            # print('start select   ', '==>', time.time())
             if '*' not in query['SELECT']:
                 # Get selected rows
                 selected_head = []
@@ -204,22 +225,22 @@ class HySQL:
                 selected_head = set(list(range(len(head)))) - set([head.index(x) if x in head else None for x in selected_head])
 
                 # Remove unselected rows from head
-                for index, j in enumerate(selected_head): head = head[:j - index] + head[j - index + 1:]
+                for i, j in enumerate(selected_head): head = head[:j - i] + head[j - i + 1:]
 
                 # Remove unselected rows from body
                 for i in range(len(body)):
                     for index, j in enumerate(selected_head): body[i] = body[i][:j - index] + body[i][j - index + 1:]
+            # print('end select     ', '==>', time.time())
 
             # AS function
             for row in query['SELECT']:
                 if type(row) == list:
                     if row[0] in head: head[head.index(row[0])] = row[1]
-            
-            if 'TOP' in query: body = body[:int(query['TOP'][0])]
 
             # Show result table
-            tabel = tabulate(body, headers=head, tablefmt="fancy_grid")
-            print(tabel)
+            if view:
+                tabel = tabulate(body, headers=head, tablefmt="fancy_grid")
+                print(tabel)
             print(f'Excuted successfully.')
 
             # Return result
@@ -243,21 +264,19 @@ class HySQL:
             body = []
             for data in dataset:
                 temp = []
-                for index in head:
-                    if index in data: temp.append(data[index])
-                    else: temp.append(None)
+                for index in head: temp.append(data[index] if index in data else None)
                 body.append(temp)
 
             if 'WHERE' in query: update = whereFilter(head, body, query['WHERE'], IorX='i')
+            if 'LIMIT' in query: update = update[:int(query['LIMIT'][0])]
 
             # Update database
             for i in range(len(dataset)):
                 if i in update:
-                    for sets in query['SET']:
-                        dataset[i][sets[0]] = sets[1]
+                    for sets in query['SET']: dataset[i][sets[0]] = sets[1]
 
             # Store to database
-            with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps(dataset, indent=4))
+            with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps(dataset))
 
             print(f'Updated successfully.')
 
@@ -266,20 +285,20 @@ class HySQL:
             if not os.path.isfile(f'./database/{path}.table'): error('Error', f'Table {path} not found.')
             elif query['INSERT'][0] != 'INTO': error('Syntax Error', '"INSERT" must be user with "INTO"')
 
-            f = open(f'./database/{path}.table', 'r')
-
             # Preprocess
             query['INSERT'] = query['INSERT'][2:]
+
+            # Load database
+            f = open(f'./database/{path}.table', 'r')
+            dataset = json.load(f)
 
             # Input check
             if len(query['INSERT']) != len(query['VALUE']): error('Value Error', 'Insert columns must be same as value columns.')
 
-            # Load database
-            dataset = json.load(f)
             dataset += [{x: y for x, y in zip(query['INSERT'], query['VALUE'])}]
 
             # Store to database
-            with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps(dataset, indent=4))
+            with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps(dataset))
 
             print(f'Inserted successfully.')
 
@@ -301,12 +320,11 @@ class HySQL:
             body = []
             for data in dataset:
                 temp = []
-                for index in head:
-                    if index in data: temp.append(data[index])
-                    else: temp.append(None)
+                for index in head: temp.append(data[index] if index in data else None)
                 body.append(temp)
 
             if 'WHERE' in query: delete = whereFilter(head, body, query['WHERE'], IorX='i')
+            if 'LIMIT' in query: delete = delete[:int(query['LIMIT'][0])]
 
             for i, x in enumerate(dataset):
                 if i in delete:
@@ -317,12 +335,12 @@ class HySQL:
             dataset = [x for x in dataset if x != '']
 
             # Store to database
-            with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps(dataset, indent=4))
+            with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps(dataset))
 
             print(f'Deleted successfully.')
 
         if mode == 'CREATE':
-            path = query['CREATE'][0]
+            path = query['CREATE'][1]
             if os.path.isfile(f'./database/{path}.table'): error('Error', f'Table {path} exists.')
             query['CREATE'] = query['CREATE'][1:]
 
@@ -330,9 +348,10 @@ class HySQL:
             for n in range(0, len(query['CREATE']), 2): dataset[query['CREATE'][n]] = query['CREATE'][n + 1]
 
             # Create database
-            with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps([dataset], indent=4))
-
-            print(f'Created table "{path}" successfully.')
+            try:
+                with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps([dataset]))
+                print(f'Created table "{path}" successfully.')
+            except: error('Fatal', f'Failed to create table "{path}".')
 
         if mode == 'DROP':
             path = query['DROP'][1]

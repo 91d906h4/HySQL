@@ -1,0 +1,7002 @@
+[
+  {
+    "ID": 1,
+    "Name": "Kabul",
+    "CountryCode": "AFG",
+    "District": "Kabol",
+    "Population": 1780000
+  },
+  {
+    "ID": 2,
+    "Name": "Qandahar",
+    "CountryCode": "AFG",
+    "District": "Qandahar",
+    "Population": 237500
+  },
+  {
+    "ID": 3,
+    "Name": "Herat",
+    "CountryCode": "AFG",
+    "District": "Herat",
+    "Population": 186800
+  },
+  {
+    "ID": 4,
+    "Name": "Mazar-e-Sharif",
+    "CountryCode": "AFG",
+    "District": "Balkh",
+    "Population": 127800
+  },
+  {
+    "ID": 5,
+    "Name": "Amsterdam",
+    "CountryCode": "NLD",
+    "District": "Noord-Holland",
+    "Population": 731200
+  },
+  {
+    "ID": 6,
+    "Name": "Rotterdam",
+    "CountryCode": "NLD",
+    "District": "Zuid-Holland",
+    "Population": 593321
+  },
+  {
+    "ID": 7,
+    "Name": "Haag",
+    "CountryCode": "NLD",
+    "District": "Zuid-Holland",
+    "Population": 440900
+  },
+  {
+    "ID": 8,
+    "Name": "Utrecht",
+    "CountryCode": "NLD",
+    "District": "Utrecht",
+    "Population": 234323
+  },
+  {
+    "ID": 9,
+    "Name": "Eindhoven",
+    "CountryCode": "NLD",
+    "District": "Noord-Brabant",
+    "Population": 201843
+  },
+  {
+    "ID": 10,
+    "Name": "Tilburg",
+    "CountryCode": "NLD",
+    "District": "Noord-Brabant",
+    "Population": 193238
+  },
+  {
+    "ID": 11,
+    "Name": "Groningen",
+    "CountryCode": "NLD",
+    "District": "Groningen",
+    "Population": 172701
+  },
+  {
+    "ID": 12,
+    "Name": "Breda",
+    "CountryCode": "NLD",
+    "District": "Noord-Brabant",
+    "Population": 160398
+  },
+  {
+    "ID": 13,
+    "Name": "Apeldoorn",
+    "CountryCode": "NLD",
+    "District": "Gelderland",
+    "Population": 153491
+  },
+  {
+    "ID": 14,
+    "Name": "Nijmegen",
+    "CountryCode": "NLD",
+    "District": "Gelderland",
+    "Population": 152463
+  },
+  {
+    "ID": 15,
+    "Name": "Enschede",
+    "CountryCode": "NLD",
+    "District": "Overijssel",
+    "Population": 149544
+  },
+  {
+    "ID": 16,
+    "Name": "Haarlem",
+    "CountryCode": "NLD",
+    "District": "Noord-Holland",
+    "Population": 148772
+  },
+  {
+    "ID": 17,
+    "Name": "Almere",
+    "CountryCode": "NLD",
+    "District": "Flevoland",
+    "Population": 142465
+  },
+  {
+    "ID": 18,
+    "Name": "Arnhem",
+    "CountryCode": "NLD",
+    "District": "Gelderland",
+    "Population": 138020
+  },
+  {
+    "ID": 19,
+    "Name": "Zaanstad",
+    "CountryCode": "NLD",
+    "District": "Noord-Holland",
+    "Population": 135621
+  },
+  {
+    "ID": 20,
+    "Name": "Â´s-Hertogenbosch",
+    "CountryCode": "NLD",
+    "District": "Noord-Brabant",
+    "Population": 129170
+  },
+  {
+    "ID": 21,
+    "Name": "Amersfoort",
+    "CountryCode": "NLD",
+    "District": "Utrecht",
+    "Population": 126270
+  },
+  {
+    "ID": 22,
+    "Name": "Maastricht",
+    "CountryCode": "NLD",
+    "District": "Limburg",
+    "Population": 122087
+  },
+  {
+    "ID": 23,
+    "Name": "Dordrecht",
+    "CountryCode": "NLD",
+    "District": "Zuid-Holland",
+    "Population": 119811
+  },
+  {
+    "ID": 24,
+    "Name": "Leiden",
+    "CountryCode": "NLD",
+    "District": "Zuid-Holland",
+    "Population": 117196
+  },
+  {
+    "ID": 25,
+    "Name": "Haarlemmermeer",
+    "CountryCode": "NLD",
+    "District": "Noord-Holland",
+    "Population": 110722
+  },
+  {
+    "ID": 26,
+    "Name": "Zoetermeer",
+    "CountryCode": "NLD",
+    "District": "Zuid-Holland",
+    "Population": 110214
+  },
+  {
+    "ID": 27,
+    "Name": "Emmen",
+    "CountryCode": "NLD",
+    "District": "Drenthe",
+    "Population": 105853
+  },
+  {
+    "ID": 28,
+    "Name": "Zwolle",
+    "CountryCode": "NLD",
+    "District": "Overijssel",
+    "Population": 105819
+  },
+  {
+    "ID": 29,
+    "Name": "Ede",
+    "CountryCode": "NLD",
+    "District": "Gelderland",
+    "Population": 101574
+  },
+  {
+    "ID": 30,
+    "Name": "Delft",
+    "CountryCode": "NLD",
+    "District": "Zuid-Holland",
+    "Population": 95268
+  },
+  {
+    "ID": 31,
+    "Name": "Heerlen",
+    "CountryCode": "NLD",
+    "District": "Limburg",
+    "Population": 95052
+  },
+  {
+    "ID": 32,
+    "Name": "Alkmaar",
+    "CountryCode": "NLD",
+    "District": "Noord-Holland",
+    "Population": 92713
+  },
+  {
+    "ID": 33,
+    "Name": "Willemstad",
+    "CountryCode": "ANT",
+    "District": "CuraÃ§ao",
+    "Population": 2345
+  },
+  {
+    "ID": 34,
+    "Name": "Tirana",
+    "CountryCode": "ALB",
+    "District": "Tirana",
+    "Population": 270000
+  },
+  {
+    "ID": 35,
+    "Name": "Alger",
+    "CountryCode": "DZA",
+    "District": "Alger",
+    "Population": 2168000
+  },
+  {
+    "ID": 36,
+    "Name": "Oran",
+    "CountryCode": "DZA",
+    "District": "Oran",
+    "Population": 609823
+  },
+  {
+    "ID": 37,
+    "Name": "Constantine",
+    "CountryCode": "DZA",
+    "District": "Constantine",
+    "Population": 443727
+  },
+  {
+    "ID": 38,
+    "Name": "Annaba",
+    "CountryCode": "DZA",
+    "District": "Annaba",
+    "Population": 222518
+  },
+  {
+    "ID": 39,
+    "Name": "Batna",
+    "CountryCode": "DZA",
+    "District": "Batna",
+    "Population": 183377
+  },
+  {
+    "ID": 40,
+    "Name": "SÃ©tif",
+    "CountryCode": "DZA",
+    "District": "SÃ©tif",
+    "Population": 179055
+  },
+  {
+    "ID": 41,
+    "Name": "Sidi Bel AbbÃ¨s",
+    "CountryCode": "DZA",
+    "District": "Sidi Bel AbbÃ¨s",
+    "Population": 153106
+  },
+  {
+    "ID": 42,
+    "Name": "Skikda",
+    "CountryCode": "DZA",
+    "District": "Skikda",
+    "Population": 128747
+  },
+  {
+    "ID": 43,
+    "Name": "Biskra",
+    "CountryCode": "DZA",
+    "District": "Biskra",
+    "Population": 128281
+  },
+  {
+    "ID": 44,
+    "Name": "Blida (el-Boulaida)",
+    "CountryCode": "DZA",
+    "District": "Blida",
+    "Population": 127284
+  },
+  {
+    "ID": 45,
+    "Name": "BÃ©jaÃ¯a",
+    "CountryCode": "DZA",
+    "District": "BÃ©jaÃ¯a",
+    "Population": 117162
+  },
+  {
+    "ID": 46,
+    "Name": "Mostaganem",
+    "CountryCode": "DZA",
+    "District": "Mostaganem",
+    "Population": 115212
+  },
+  {
+    "ID": 47,
+    "Name": "TÃ©bessa",
+    "CountryCode": "DZA",
+    "District": "TÃ©bessa",
+    "Population": 112007
+  },
+  {
+    "ID": 48,
+    "Name": "Tlemcen (Tilimsen)",
+    "CountryCode": "DZA",
+    "District": "Tlemcen",
+    "Population": 110242
+  },
+  {
+    "ID": 49,
+    "Name": "BÃ©char",
+    "CountryCode": "DZA",
+    "District": "BÃ©char",
+    "Population": 107311
+  },
+  {
+    "ID": 50,
+    "Name": "Tiaret",
+    "CountryCode": "DZA",
+    "District": "Tiaret",
+    "Population": 100118
+  },
+  {
+    "ID": 51,
+    "Name": "Ech-Chleff (el-Asnam)",
+    "CountryCode": "DZA",
+    "District": "Chlef",
+    "Population": 96794
+  },
+  {
+    "ID": 52,
+    "Name": "GhardaÃ¯a",
+    "CountryCode": "DZA",
+    "District": "GhardaÃ¯a",
+    "Population": 89415
+  },
+  {
+    "ID": 53,
+    "Name": "Tafuna",
+    "CountryCode": "ASM",
+    "District": "Tutuila",
+    "Population": 5200
+  },
+  {
+    "ID": 54,
+    "Name": "Fagatogo",
+    "CountryCode": "ASM",
+    "District": "Tutuila",
+    "Population": 2323
+  },
+  {
+    "ID": 55,
+    "Name": "Andorra la Vella",
+    "CountryCode": "AND",
+    "District": "Andorra la Vella",
+    "Population": 21189
+  },
+  {
+    "ID": 56,
+    "Name": "Luanda",
+    "CountryCode": "AGO",
+    "District": "Luanda",
+    "Population": 2022000
+  },
+  {
+    "ID": 57,
+    "Name": "Huambo",
+    "CountryCode": "AGO",
+    "District": "Huambo",
+    "Population": 163100
+  },
+  {
+    "ID": 58,
+    "Name": "Lobito",
+    "CountryCode": "AGO",
+    "District": "Benguela",
+    "Population": 130000
+  },
+  {
+    "ID": 59,
+    "Name": "Benguela",
+    "CountryCode": "AGO",
+    "District": "Benguela",
+    "Population": 128300
+  },
+  {
+    "ID": 60,
+    "Name": "Namibe",
+    "CountryCode": "AGO",
+    "District": "Namibe",
+    "Population": 118200
+  },
+  {
+    "ID": 61,
+    "Name": "South Hill",
+    "CountryCode": "AIA",
+    "District": "Â–",
+    "Population": 961
+  },
+  {
+    "ID": 62,
+    "Name": "The Valley",
+    "CountryCode": "AIA",
+    "District": "Â–",
+    "Population": 595
+  },
+  {
+    "ID": 63,
+    "Name": "Saint JohnÂ´s",
+    "CountryCode": "ATG",
+    "District": "St John",
+    "Population": 24000
+  },
+  {
+    "ID": 64,
+    "Name": "Dubai",
+    "CountryCode": "ARE",
+    "District": "Dubai",
+    "Population": 669181
+  },
+  {
+    "ID": 65,
+    "Name": "Abu Dhabi",
+    "CountryCode": "ARE",
+    "District": "Abu Dhabi",
+    "Population": 398695
+  },
+  {
+    "ID": 66,
+    "Name": "Sharja",
+    "CountryCode": "ARE",
+    "District": "Sharja",
+    "Population": 320095
+  },
+  {
+    "ID": 67,
+    "Name": "al-Ayn",
+    "CountryCode": "ARE",
+    "District": "Abu Dhabi",
+    "Population": 225970
+  },
+  {
+    "ID": 68,
+    "Name": "Ajman",
+    "CountryCode": "ARE",
+    "District": "Ajman",
+    "Population": 114395
+  },
+  {
+    "ID": 69,
+    "Name": "Buenos Aires",
+    "CountryCode": "ARG",
+    "District": "Distrito Federal",
+    "Population": 2982146
+  },
+  {
+    "ID": 70,
+    "Name": "La Matanza",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 1266461
+  },
+  {
+    "ID": 71,
+    "Name": "CÃ³rdoba",
+    "CountryCode": "ARG",
+    "District": "CÃ³rdoba",
+    "Population": 1157507
+  },
+  {
+    "ID": 72,
+    "Name": "Rosario",
+    "CountryCode": "ARG",
+    "District": "Santa FÃ©",
+    "Population": 907718
+  },
+  {
+    "ID": 73,
+    "Name": "Lomas de Zamora",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 622013
+  },
+  {
+    "ID": 74,
+    "Name": "Quilmes",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 559249
+  },
+  {
+    "ID": 75,
+    "Name": "Almirante Brown",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 538918
+  },
+  {
+    "ID": 76,
+    "Name": "La Plata",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 521936
+  },
+  {
+    "ID": 77,
+    "Name": "Mar del Plata",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 512880
+  },
+  {
+    "ID": 78,
+    "Name": "San Miguel de TucumÃ¡n",
+    "CountryCode": "ARG",
+    "District": "TucumÃ¡n",
+    "Population": 470809
+  },
+  {
+    "ID": 79,
+    "Name": "LanÃºs",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 469735
+  },
+  {
+    "ID": 80,
+    "Name": "Merlo",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 463846
+  },
+  {
+    "ID": 81,
+    "Name": "General San MartÃ­n",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 422542
+  },
+  {
+    "ID": 82,
+    "Name": "Salta",
+    "CountryCode": "ARG",
+    "District": "Salta",
+    "Population": 367550
+  },
+  {
+    "ID": 83,
+    "Name": "Moreno",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 356993
+  },
+  {
+    "ID": 84,
+    "Name": "Santa FÃ©",
+    "CountryCode": "ARG",
+    "District": "Santa FÃ©",
+    "Population": 353063
+  },
+  {
+    "ID": 85,
+    "Name": "Avellaneda",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 353046
+  },
+  {
+    "ID": 86,
+    "Name": "Tres de Febrero",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 352311
+  },
+  {
+    "ID": 87,
+    "Name": "MorÃ³n",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 349246
+  },
+  {
+    "ID": 88,
+    "Name": "Florencio Varela",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 315432
+  },
+  {
+    "ID": 89,
+    "Name": "San Isidro",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 306341
+  },
+  {
+    "ID": 90,
+    "Name": "Tigre",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 296226
+  },
+  {
+    "ID": 91,
+    "Name": "Malvinas Argentinas",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 290335
+  },
+  {
+    "ID": 92,
+    "Name": "Vicente LÃ³pez",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 288341
+  },
+  {
+    "ID": 93,
+    "Name": "Berazategui",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 276916
+  },
+  {
+    "ID": 94,
+    "Name": "Corrientes",
+    "CountryCode": "ARG",
+    "District": "Corrientes",
+    "Population": 258103
+  },
+  {
+    "ID": 95,
+    "Name": "San Miguel",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 248700
+  },
+  {
+    "ID": 96,
+    "Name": "BahÃ­a Blanca",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 239810
+  },
+  {
+    "ID": 97,
+    "Name": "Esteban EcheverrÃ­a",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 235760
+  },
+  {
+    "ID": 98,
+    "Name": "Resistencia",
+    "CountryCode": "ARG",
+    "District": "Chaco",
+    "Population": 229212
+  },
+  {
+    "ID": 99,
+    "Name": "JosÃ© C. Paz",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 221754
+  },
+  {
+    "ID": 100,
+    "Name": "ParanÃ¡",
+    "CountryCode": "ARG",
+    "District": "Entre Rios",
+    "Population": 207041
+  },
+  {
+    "ID": 101,
+    "Name": "Godoy Cruz",
+    "CountryCode": "ARG",
+    "District": "Mendoza",
+    "Population": 206998
+  },
+  {
+    "ID": 102,
+    "Name": "Posadas",
+    "CountryCode": "ARG",
+    "District": "Misiones",
+    "Population": 201273
+  },
+  {
+    "ID": 103,
+    "Name": "GuaymallÃ©n",
+    "CountryCode": "ARG",
+    "District": "Mendoza",
+    "Population": 200595
+  },
+  {
+    "ID": 104,
+    "Name": "Santiago del Estero",
+    "CountryCode": "ARG",
+    "District": "Santiago del Estero",
+    "Population": 189947
+  },
+  {
+    "ID": 105,
+    "Name": "San Salvador de Jujuy",
+    "CountryCode": "ARG",
+    "District": "Jujuy",
+    "Population": 178748
+  },
+  {
+    "ID": 106,
+    "Name": "Hurlingham",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 170028
+  },
+  {
+    "ID": 107,
+    "Name": "NeuquÃ©n",
+    "CountryCode": "ARG",
+    "District": "NeuquÃ©n",
+    "Population": 167296
+  },
+  {
+    "ID": 108,
+    "Name": "ItuzaingÃ³",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 158197
+  },
+  {
+    "ID": 109,
+    "Name": "San Fernando",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 153036
+  },
+  {
+    "ID": 110,
+    "Name": "Formosa",
+    "CountryCode": "ARG",
+    "District": "Formosa",
+    "Population": 147636
+  },
+  {
+    "ID": 111,
+    "Name": "Las Heras",
+    "CountryCode": "ARG",
+    "District": "Mendoza",
+    "Population": 145823
+  },
+  {
+    "ID": 112,
+    "Name": "La Rioja",
+    "CountryCode": "ARG",
+    "District": "La Rioja",
+    "Population": 138117
+  },
+  {
+    "ID": 113,
+    "Name": "San Fernando del Valle de Cata",
+    "CountryCode": "ARG",
+    "District": "Catamarca",
+    "Population": 134935
+  },
+  {
+    "ID": 114,
+    "Name": "RÃ­o Cuarto",
+    "CountryCode": "ARG",
+    "District": "CÃ³rdoba",
+    "Population": 134355
+  },
+  {
+    "ID": 115,
+    "Name": "Comodoro Rivadavia",
+    "CountryCode": "ARG",
+    "District": "Chubut",
+    "Population": 124104
+  },
+  {
+    "ID": 116,
+    "Name": "Mendoza",
+    "CountryCode": "ARG",
+    "District": "Mendoza",
+    "Population": 123027
+  },
+  {
+    "ID": 117,
+    "Name": "San NicolÃ¡s de los Arroyos",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 119302
+  },
+  {
+    "ID": 118,
+    "Name": "San Juan",
+    "CountryCode": "ARG",
+    "District": "San Juan",
+    "Population": 119152
+  },
+  {
+    "ID": 119,
+    "Name": "Escobar",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 116675
+  },
+  {
+    "ID": 120,
+    "Name": "Concordia",
+    "CountryCode": "ARG",
+    "District": "Entre Rios",
+    "Population": 116485
+  },
+  {
+    "ID": 121,
+    "Name": "Pilar",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 113428
+  },
+  {
+    "ID": 122,
+    "Name": "San Luis",
+    "CountryCode": "ARG",
+    "District": "San Luis",
+    "Population": 110136
+  },
+  {
+    "ID": 123,
+    "Name": "Ezeiza",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 99578
+  },
+  {
+    "ID": 124,
+    "Name": "San Rafael",
+    "CountryCode": "ARG",
+    "District": "Mendoza",
+    "Population": 94651
+  },
+  {
+    "ID": 125,
+    "Name": "Tandil",
+    "CountryCode": "ARG",
+    "District": "Buenos Aires",
+    "Population": 91101
+  },
+  {
+    "ID": 126,
+    "Name": "Yerevan",
+    "CountryCode": "ARM",
+    "District": "Yerevan",
+    "Population": 1248700
+  },
+  {
+    "ID": 127,
+    "Name": "Gjumri",
+    "CountryCode": "ARM",
+    "District": "ÂŠirak",
+    "Population": 211700
+  },
+  {
+    "ID": 128,
+    "Name": "Vanadzor",
+    "CountryCode": "ARM",
+    "District": "Lori",
+    "Population": 172700
+  },
+  {
+    "ID": 129,
+    "Name": "Oranjestad",
+    "CountryCode": "ABW",
+    "District": "Â–",
+    "Population": 29034
+  },
+  {
+    "ID": 130,
+    "Name": "Sydney",
+    "CountryCode": "AUS",
+    "District": "New South Wales",
+    "Population": 3276207
+  },
+  {
+    "ID": 131,
+    "Name": "Melbourne",
+    "CountryCode": "AUS",
+    "District": "Victoria",
+    "Population": 2865329
+  },
+  {
+    "ID": 132,
+    "Name": "Brisbane",
+    "CountryCode": "AUS",
+    "District": "Queensland",
+    "Population": 1291117
+  },
+  {
+    "ID": 133,
+    "Name": "Perth",
+    "CountryCode": "AUS",
+    "District": "West Australia",
+    "Population": 1096829
+  },
+  {
+    "ID": 134,
+    "Name": "Adelaide",
+    "CountryCode": "AUS",
+    "District": "South Australia",
+    "Population": 978100
+  },
+  {
+    "ID": 135,
+    "Name": "Canberra",
+    "CountryCode": "AUS",
+    "District": "Capital Region",
+    "Population": 322723
+  },
+  {
+    "ID": 136,
+    "Name": "Gold Coast",
+    "CountryCode": "AUS",
+    "District": "Queensland",
+    "Population": 311932
+  },
+  {
+    "ID": 137,
+    "Name": "Newcastle",
+    "CountryCode": "AUS",
+    "District": "New South Wales",
+    "Population": 270324
+  },
+  {
+    "ID": 138,
+    "Name": "Central Coast",
+    "CountryCode": "AUS",
+    "District": "New South Wales",
+    "Population": 227657
+  },
+  {
+    "ID": 139,
+    "Name": "Wollongong",
+    "CountryCode": "AUS",
+    "District": "New South Wales",
+    "Population": 219761
+  },
+  {
+    "ID": 140,
+    "Name": "Hobart",
+    "CountryCode": "AUS",
+    "District": "Tasmania",
+    "Population": 126118
+  },
+  {
+    "ID": 141,
+    "Name": "Geelong",
+    "CountryCode": "AUS",
+    "District": "Victoria",
+    "Population": 125382
+  },
+  {
+    "ID": 142,
+    "Name": "Townsville",
+    "CountryCode": "AUS",
+    "District": "Queensland",
+    "Population": 109914
+  },
+  {
+    "ID": 143,
+    "Name": "Cairns",
+    "CountryCode": "AUS",
+    "District": "Queensland",
+    "Population": 92273
+  },
+  {
+    "ID": 144,
+    "Name": "Baku",
+    "CountryCode": "AZE",
+    "District": "Baki",
+    "Population": 1787800
+  },
+  {
+    "ID": 145,
+    "Name": "GÃ¤ncÃ¤",
+    "CountryCode": "AZE",
+    "District": "GÃ¤ncÃ¤",
+    "Population": 299300
+  },
+  {
+    "ID": 146,
+    "Name": "Sumqayit",
+    "CountryCode": "AZE",
+    "District": "Sumqayit",
+    "Population": 283000
+  },
+  {
+    "ID": 147,
+    "Name": "MingÃ¤Ã§evir",
+    "CountryCode": "AZE",
+    "District": "MingÃ¤Ã§evir",
+    "Population": 93900
+  },
+  {
+    "ID": 148,
+    "Name": "Nassau",
+    "CountryCode": "BHS",
+    "District": "New Providence",
+    "Population": 172000
+  },
+  {
+    "ID": 149,
+    "Name": "al-Manama",
+    "CountryCode": "BHR",
+    "District": "al-Manama",
+    "Population": 148000
+  },
+  {
+    "ID": 150,
+    "Name": "Dhaka",
+    "CountryCode": "BGD",
+    "District": "Dhaka",
+    "Population": 3612850
+  },
+  {
+    "ID": 151,
+    "Name": "Chittagong",
+    "CountryCode": "BGD",
+    "District": "Chittagong",
+    "Population": 1392860
+  },
+  {
+    "ID": 152,
+    "Name": "Khulna",
+    "CountryCode": "BGD",
+    "District": "Khulna",
+    "Population": 663340
+  },
+  {
+    "ID": 153,
+    "Name": "Rajshahi",
+    "CountryCode": "BGD",
+    "District": "Rajshahi",
+    "Population": 294056
+  },
+  {
+    "ID": 154,
+    "Name": "Narayanganj",
+    "CountryCode": "BGD",
+    "District": "Dhaka",
+    "Population": 202134
+  },
+  {
+    "ID": 155,
+    "Name": "Rangpur",
+    "CountryCode": "BGD",
+    "District": "Rajshahi",
+    "Population": 191398
+  },
+  {
+    "ID": 156,
+    "Name": "Mymensingh",
+    "CountryCode": "BGD",
+    "District": "Dhaka",
+    "Population": 188713
+  },
+  {
+    "ID": 157,
+    "Name": "Barisal",
+    "CountryCode": "BGD",
+    "District": "Barisal",
+    "Population": 170232
+  },
+  {
+    "ID": 158,
+    "Name": "Tungi",
+    "CountryCode": "BGD",
+    "District": "Dhaka",
+    "Population": 168702
+  },
+  {
+    "ID": 159,
+    "Name": "Jessore",
+    "CountryCode": "BGD",
+    "District": "Khulna",
+    "Population": 139710
+  },
+  {
+    "ID": 160,
+    "Name": "Comilla",
+    "CountryCode": "BGD",
+    "District": "Chittagong",
+    "Population": 135313
+  },
+  {
+    "ID": 161,
+    "Name": "Nawabganj",
+    "CountryCode": "BGD",
+    "District": "Rajshahi",
+    "Population": 130577
+  },
+  {
+    "ID": 162,
+    "Name": "Dinajpur",
+    "CountryCode": "BGD",
+    "District": "Rajshahi",
+    "Population": 127815
+  },
+  {
+    "ID": 163,
+    "Name": "Bogra",
+    "CountryCode": "BGD",
+    "District": "Rajshahi",
+    "Population": 120170
+  },
+  {
+    "ID": 164,
+    "Name": "Sylhet",
+    "CountryCode": "BGD",
+    "District": "Sylhet",
+    "Population": 117396
+  },
+  {
+    "ID": 165,
+    "Name": "Brahmanbaria",
+    "CountryCode": "BGD",
+    "District": "Chittagong",
+    "Population": 109032
+  },
+  {
+    "ID": 166,
+    "Name": "Tangail",
+    "CountryCode": "BGD",
+    "District": "Dhaka",
+    "Population": 106004
+  },
+  {
+    "ID": 167,
+    "Name": "Jamalpur",
+    "CountryCode": "BGD",
+    "District": "Dhaka",
+    "Population": 103556
+  },
+  {
+    "ID": 168,
+    "Name": "Pabna",
+    "CountryCode": "BGD",
+    "District": "Rajshahi",
+    "Population": 103277
+  },
+  {
+    "ID": 169,
+    "Name": "Naogaon",
+    "CountryCode": "BGD",
+    "District": "Rajshahi",
+    "Population": 101266
+  },
+  {
+    "ID": 170,
+    "Name": "Sirajganj",
+    "CountryCode": "BGD",
+    "District": "Rajshahi",
+    "Population": 99669
+  },
+  {
+    "ID": 171,
+    "Name": "Narsinghdi",
+    "CountryCode": "BGD",
+    "District": "Dhaka",
+    "Population": 98342
+  },
+  {
+    "ID": 172,
+    "Name": "Saidpur",
+    "CountryCode": "BGD",
+    "District": "Rajshahi",
+    "Population": 96777
+  },
+  {
+    "ID": 173,
+    "Name": "Gazipur",
+    "CountryCode": "BGD",
+    "District": "Dhaka",
+    "Population": 96717
+  },
+  {
+    "ID": 174,
+    "Name": "Bridgetown",
+    "CountryCode": "BRB",
+    "District": "St Michael",
+    "Population": 6070
+  },
+  {
+    "ID": 175,
+    "Name": "Antwerpen",
+    "CountryCode": "BEL",
+    "District": "Antwerpen",
+    "Population": 446525
+  },
+  {
+    "ID": 176,
+    "Name": "Gent",
+    "CountryCode": "BEL",
+    "District": "East Flanderi",
+    "Population": 224180
+  },
+  {
+    "ID": 177,
+    "Name": "Charleroi",
+    "CountryCode": "BEL",
+    "District": "Hainaut",
+    "Population": 200827
+  },
+  {
+    "ID": 178,
+    "Name": "LiÃ¨ge",
+    "CountryCode": "BEL",
+    "District": "LiÃ¨ge",
+    "Population": 185639
+  },
+  {
+    "ID": 179,
+    "Name": "Bruxelles [Brussel]",
+    "CountryCode": "BEL",
+    "District": "Bryssel",
+    "Population": 133859
+  },
+  {
+    "ID": 180,
+    "Name": "Brugge",
+    "CountryCode": "BEL",
+    "District": "West Flanderi",
+    "Population": 116246
+  },
+  {
+    "ID": 181,
+    "Name": "Schaerbeek",
+    "CountryCode": "BEL",
+    "District": "Bryssel",
+    "Population": 105692
+  },
+  {
+    "ID": 182,
+    "Name": "Namur",
+    "CountryCode": "BEL",
+    "District": "Namur",
+    "Population": 105419
+  },
+  {
+    "ID": 183,
+    "Name": "Mons",
+    "CountryCode": "BEL",
+    "District": "Hainaut",
+    "Population": 90935
+  },
+  {
+    "ID": 184,
+    "Name": "Belize City",
+    "CountryCode": "BLZ",
+    "District": "Belize City",
+    "Population": 55810
+  },
+  {
+    "ID": 185,
+    "Name": "Belmopan",
+    "CountryCode": "BLZ",
+    "District": "Cayo",
+    "Population": 7105
+  },
+  {
+    "ID": 186,
+    "Name": "Cotonou",
+    "CountryCode": "BEN",
+    "District": "Atlantique",
+    "Population": 536827
+  },
+  {
+    "ID": 187,
+    "Name": "Porto-Novo",
+    "CountryCode": "BEN",
+    "District": "OuÃ©mÃ©",
+    "Population": 194000
+  },
+  {
+    "ID": 188,
+    "Name": "Djougou",
+    "CountryCode": "BEN",
+    "District": "Atacora",
+    "Population": 134099
+  },
+  {
+    "ID": 189,
+    "Name": "Parakou",
+    "CountryCode": "BEN",
+    "District": "Borgou",
+    "Population": 103577
+  },
+  {
+    "ID": 190,
+    "Name": "Saint George",
+    "CountryCode": "BMU",
+    "District": "Saint GeorgeÂ´s",
+    "Population": 1800
+  },
+  {
+    "ID": 191,
+    "Name": "Hamilton",
+    "CountryCode": "BMU",
+    "District": "Hamilton",
+    "Population": 1200
+  },
+  {
+    "ID": 192,
+    "Name": "Thimphu",
+    "CountryCode": "BTN",
+    "District": "Thimphu",
+    "Population": 22000
+  },
+  {
+    "ID": 193,
+    "Name": "Santa Cruz de la Sierra",
+    "CountryCode": "BOL",
+    "District": "Santa Cruz",
+    "Population": 935361
+  },
+  {
+    "ID": 194,
+    "Name": "La Paz",
+    "CountryCode": "BOL",
+    "District": "La Paz",
+    "Population": 758141
+  },
+  {
+    "ID": 195,
+    "Name": "El Alto",
+    "CountryCode": "BOL",
+    "District": "La Paz",
+    "Population": 534466
+  },
+  {
+    "ID": 196,
+    "Name": "Cochabamba",
+    "CountryCode": "BOL",
+    "District": "Cochabamba",
+    "Population": 482800
+  },
+  {
+    "ID": 197,
+    "Name": "Oruro",
+    "CountryCode": "BOL",
+    "District": "Oruro",
+    "Population": 223553
+  },
+  {
+    "ID": 198,
+    "Name": "Sucre",
+    "CountryCode": "BOL",
+    "District": "Chuquisaca",
+    "Population": 178426
+  },
+  {
+    "ID": 199,
+    "Name": "PotosÃ­",
+    "CountryCode": "BOL",
+    "District": "PotosÃ­",
+    "Population": 140642
+  },
+  {
+    "ID": 200,
+    "Name": "Tarija",
+    "CountryCode": "BOL",
+    "District": "Tarija",
+    "Population": 125255
+  },
+  {
+    "ID": 201,
+    "Name": "Sarajevo",
+    "CountryCode": "BIH",
+    "District": "Federaatio",
+    "Population": 360000
+  },
+  {
+    "ID": 202,
+    "Name": "Banja Luka",
+    "CountryCode": "BIH",
+    "District": "Republika Srpska",
+    "Population": 143079
+  },
+  {
+    "ID": 203,
+    "Name": "Zenica",
+    "CountryCode": "BIH",
+    "District": "Federaatio",
+    "Population": 96027
+  },
+  {
+    "ID": 204,
+    "Name": "Gaborone",
+    "CountryCode": "BWA",
+    "District": "Gaborone",
+    "Population": 213017
+  },
+  {
+    "ID": 205,
+    "Name": "Francistown",
+    "CountryCode": "BWA",
+    "District": "Francistown",
+    "Population": 101805
+  },
+  {
+    "ID": 206,
+    "Name": "SÃ£o Paulo",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 9968485
+  },
+  {
+    "ID": 207,
+    "Name": "Rio de Janeiro",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 5598953
+  },
+  {
+    "ID": 208,
+    "Name": "Salvador",
+    "CountryCode": "BRA",
+    "District": "Bahia",
+    "Population": 2302832
+  },
+  {
+    "ID": 209,
+    "Name": "Belo Horizonte",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 2139125
+  },
+  {
+    "ID": 210,
+    "Name": "Fortaleza",
+    "CountryCode": "BRA",
+    "District": "CearÃ¡",
+    "Population": 2097757
+  },
+  {
+    "ID": 211,
+    "Name": "BrasÃ­lia",
+    "CountryCode": "BRA",
+    "District": "Distrito Federal",
+    "Population": 1969868
+  },
+  {
+    "ID": 212,
+    "Name": "Curitiba",
+    "CountryCode": "BRA",
+    "District": "ParanÃ¡",
+    "Population": 1584232
+  },
+  {
+    "ID": 213,
+    "Name": "Recife",
+    "CountryCode": "BRA",
+    "District": "Pernambuco",
+    "Population": 1378087
+  },
+  {
+    "ID": 214,
+    "Name": "Porto Alegre",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 1314032
+  },
+  {
+    "ID": 215,
+    "Name": "Manaus",
+    "CountryCode": "BRA",
+    "District": "Amazonas",
+    "Population": 1255049
+  },
+  {
+    "ID": 216,
+    "Name": "BelÃ©m",
+    "CountryCode": "BRA",
+    "District": "ParÃ¡",
+    "Population": 1186926
+  },
+  {
+    "ID": 217,
+    "Name": "Guarulhos",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 1095874
+  },
+  {
+    "ID": 218,
+    "Name": "GoiÃ¢nia",
+    "CountryCode": "BRA",
+    "District": "GoiÃ¡s",
+    "Population": 1056330
+  },
+  {
+    "ID": 219,
+    "Name": "Campinas",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 950043
+  },
+  {
+    "ID": 220,
+    "Name": "SÃ£o GonÃ§alo",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 869254
+  },
+  {
+    "ID": 221,
+    "Name": "Nova IguaÃ§u",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 862225
+  },
+  {
+    "ID": 222,
+    "Name": "SÃ£o LuÃ­s",
+    "CountryCode": "BRA",
+    "District": "MaranhÃ£o",
+    "Population": 837588
+  },
+  {
+    "ID": 223,
+    "Name": "MaceiÃ³",
+    "CountryCode": "BRA",
+    "District": "Alagoas",
+    "Population": 786288
+  },
+  {
+    "ID": 224,
+    "Name": "Duque de Caxias",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 746758
+  },
+  {
+    "ID": 225,
+    "Name": "SÃ£o Bernardo do Campo",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 723132
+  },
+  {
+    "ID": 226,
+    "Name": "Teresina",
+    "CountryCode": "BRA",
+    "District": "PiauÃ­",
+    "Population": 691942
+  },
+  {
+    "ID": 227,
+    "Name": "Natal",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Norte",
+    "Population": 688955
+  },
+  {
+    "ID": 228,
+    "Name": "Osasco",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 659604
+  },
+  {
+    "ID": 229,
+    "Name": "Campo Grande",
+    "CountryCode": "BRA",
+    "District": "Mato Grosso do Sul",
+    "Population": 649593
+  },
+  {
+    "ID": 230,
+    "Name": "Santo AndrÃ©",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 630073
+  },
+  {
+    "ID": 231,
+    "Name": "JoÃ£o Pessoa",
+    "CountryCode": "BRA",
+    "District": "ParaÃ­ba",
+    "Population": 584029
+  },
+  {
+    "ID": 232,
+    "Name": "JaboatÃ£o dos Guararapes",
+    "CountryCode": "BRA",
+    "District": "Pernambuco",
+    "Population": 558680
+  },
+  {
+    "ID": 233,
+    "Name": "Contagem",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 520801
+  },
+  {
+    "ID": 234,
+    "Name": "SÃ£o JosÃ© dos Campos",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 515553
+  },
+  {
+    "ID": 235,
+    "Name": "UberlÃ¢ndia",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 487222
+  },
+  {
+    "ID": 236,
+    "Name": "Feira de Santana",
+    "CountryCode": "BRA",
+    "District": "Bahia",
+    "Population": 479992
+  },
+  {
+    "ID": 237,
+    "Name": "RibeirÃ£o Preto",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 473276
+  },
+  {
+    "ID": 238,
+    "Name": "Sorocaba",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 466823
+  },
+  {
+    "ID": 239,
+    "Name": "NiterÃ³i",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 459884
+  },
+  {
+    "ID": 240,
+    "Name": "CuiabÃ¡",
+    "CountryCode": "BRA",
+    "District": "Mato Grosso",
+    "Population": 453813
+  },
+  {
+    "ID": 241,
+    "Name": "Juiz de Fora",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 450288
+  },
+  {
+    "ID": 242,
+    "Name": "Aracaju",
+    "CountryCode": "BRA",
+    "District": "Sergipe",
+    "Population": 445555
+  },
+  {
+    "ID": 243,
+    "Name": "SÃ£o JoÃ£o de Meriti",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 440052
+  },
+  {
+    "ID": 244,
+    "Name": "Londrina",
+    "CountryCode": "BRA",
+    "District": "ParanÃ¡",
+    "Population": 432257
+  },
+  {
+    "ID": 245,
+    "Name": "Joinville",
+    "CountryCode": "BRA",
+    "District": "Santa Catarina",
+    "Population": 428011
+  },
+  {
+    "ID": 246,
+    "Name": "Belford Roxo",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 425194
+  },
+  {
+    "ID": 247,
+    "Name": "Santos",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 408748
+  },
+  {
+    "ID": 248,
+    "Name": "Ananindeua",
+    "CountryCode": "BRA",
+    "District": "ParÃ¡",
+    "Population": 400940
+  },
+  {
+    "ID": 249,
+    "Name": "Campos dos Goytacazes",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 398418
+  },
+  {
+    "ID": 250,
+    "Name": "MauÃ¡",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 375055
+  },
+  {
+    "ID": 251,
+    "Name": "CarapicuÃ­ba",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 357552
+  },
+  {
+    "ID": 252,
+    "Name": "Olinda",
+    "CountryCode": "BRA",
+    "District": "Pernambuco",
+    "Population": 354732
+  },
+  {
+    "ID": 253,
+    "Name": "Campina Grande",
+    "CountryCode": "BRA",
+    "District": "ParaÃ­ba",
+    "Population": 352497
+  },
+  {
+    "ID": 254,
+    "Name": "SÃ£o JosÃ© do Rio Preto",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 351944
+  },
+  {
+    "ID": 255,
+    "Name": "Caxias do Sul",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 349581
+  },
+  {
+    "ID": 256,
+    "Name": "Moji das Cruzes",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 339194
+  },
+  {
+    "ID": 257,
+    "Name": "Diadema",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 335078
+  },
+  {
+    "ID": 258,
+    "Name": "Aparecida de GoiÃ¢nia",
+    "CountryCode": "BRA",
+    "District": "GoiÃ¡s",
+    "Population": 324662
+  },
+  {
+    "ID": 259,
+    "Name": "Piracicaba",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 319104
+  },
+  {
+    "ID": 260,
+    "Name": "Cariacica",
+    "CountryCode": "BRA",
+    "District": "EspÃ­rito Santo",
+    "Population": 319033
+  },
+  {
+    "ID": 261,
+    "Name": "Vila Velha",
+    "CountryCode": "BRA",
+    "District": "EspÃ­rito Santo",
+    "Population": 318758
+  },
+  {
+    "ID": 262,
+    "Name": "Pelotas",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 315415
+  },
+  {
+    "ID": 263,
+    "Name": "Bauru",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 313670
+  },
+  {
+    "ID": 264,
+    "Name": "Porto Velho",
+    "CountryCode": "BRA",
+    "District": "RondÃ´nia",
+    "Population": 309750
+  },
+  {
+    "ID": 265,
+    "Name": "Serra",
+    "CountryCode": "BRA",
+    "District": "EspÃ­rito Santo",
+    "Population": 302666
+  },
+  {
+    "ID": 266,
+    "Name": "Betim",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 302108
+  },
+  {
+    "ID": 267,
+    "Name": "JundÃ­aÃ­",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 296127
+  },
+  {
+    "ID": 268,
+    "Name": "Canoas",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 294125
+  },
+  {
+    "ID": 269,
+    "Name": "Franca",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 290139
+  },
+  {
+    "ID": 270,
+    "Name": "SÃ£o Vicente",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 286848
+  },
+  {
+    "ID": 271,
+    "Name": "MaringÃ¡",
+    "CountryCode": "BRA",
+    "District": "ParanÃ¡",
+    "Population": 286461
+  },
+  {
+    "ID": 272,
+    "Name": "Montes Claros",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 286058
+  },
+  {
+    "ID": 273,
+    "Name": "AnÃ¡polis",
+    "CountryCode": "BRA",
+    "District": "GoiÃ¡s",
+    "Population": 282197
+  },
+  {
+    "ID": 274,
+    "Name": "FlorianÃ³polis",
+    "CountryCode": "BRA",
+    "District": "Santa Catarina",
+    "Population": 281928
+  },
+  {
+    "ID": 275,
+    "Name": "PetrÃ³polis",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 279183
+  },
+  {
+    "ID": 276,
+    "Name": "Itaquaquecetuba",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 270874
+  },
+  {
+    "ID": 277,
+    "Name": "VitÃ³ria",
+    "CountryCode": "BRA",
+    "District": "EspÃ­rito Santo",
+    "Population": 270626
+  },
+  {
+    "ID": 278,
+    "Name": "Ponta Grossa",
+    "CountryCode": "BRA",
+    "District": "ParanÃ¡",
+    "Population": 268013
+  },
+  {
+    "ID": 279,
+    "Name": "Rio Branco",
+    "CountryCode": "BRA",
+    "District": "Acre",
+    "Population": 259537
+  },
+  {
+    "ID": 280,
+    "Name": "Foz do IguaÃ§u",
+    "CountryCode": "BRA",
+    "District": "ParanÃ¡",
+    "Population": 259425
+  },
+  {
+    "ID": 281,
+    "Name": "MacapÃ¡",
+    "CountryCode": "BRA",
+    "District": "AmapÃ¡",
+    "Population": 256033
+  },
+  {
+    "ID": 282,
+    "Name": "IlhÃ©us",
+    "CountryCode": "BRA",
+    "District": "Bahia",
+    "Population": 254970
+  },
+  {
+    "ID": 283,
+    "Name": "VitÃ³ria da Conquista",
+    "CountryCode": "BRA",
+    "District": "Bahia",
+    "Population": 253587
+  },
+  {
+    "ID": 284,
+    "Name": "Uberaba",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 249225
+  },
+  {
+    "ID": 285,
+    "Name": "Paulista",
+    "CountryCode": "BRA",
+    "District": "Pernambuco",
+    "Population": 248473
+  },
+  {
+    "ID": 286,
+    "Name": "Limeira",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 245497
+  },
+  {
+    "ID": 287,
+    "Name": "Blumenau",
+    "CountryCode": "BRA",
+    "District": "Santa Catarina",
+    "Population": 244379
+  },
+  {
+    "ID": 288,
+    "Name": "Caruaru",
+    "CountryCode": "BRA",
+    "District": "Pernambuco",
+    "Population": 244247
+  },
+  {
+    "ID": 289,
+    "Name": "SantarÃ©m",
+    "CountryCode": "BRA",
+    "District": "ParÃ¡",
+    "Population": 241771
+  },
+  {
+    "ID": 290,
+    "Name": "Volta Redonda",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 240315
+  },
+  {
+    "ID": 291,
+    "Name": "Novo Hamburgo",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 239940
+  },
+  {
+    "ID": 292,
+    "Name": "Caucaia",
+    "CountryCode": "BRA",
+    "District": "CearÃ¡",
+    "Population": 238738
+  },
+  {
+    "ID": 293,
+    "Name": "Santa Maria",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 238473
+  },
+  {
+    "ID": 294,
+    "Name": "Cascavel",
+    "CountryCode": "BRA",
+    "District": "ParanÃ¡",
+    "Population": 237510
+  },
+  {
+    "ID": 295,
+    "Name": "GuarujÃ¡",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 237206
+  },
+  {
+    "ID": 296,
+    "Name": "RibeirÃ£o das Neves",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 232685
+  },
+  {
+    "ID": 297,
+    "Name": "Governador Valadares",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 231724
+  },
+  {
+    "ID": 298,
+    "Name": "TaubatÃ©",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 229130
+  },
+  {
+    "ID": 299,
+    "Name": "Imperatriz",
+    "CountryCode": "BRA",
+    "District": "MaranhÃ£o",
+    "Population": 224564
+  },
+  {
+    "ID": 300,
+    "Name": "GravataÃ­",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 223011
+  },
+  {
+    "ID": 301,
+    "Name": "Embu",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 222223
+  },
+  {
+    "ID": 302,
+    "Name": "MossorÃ³",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Norte",
+    "Population": 214901
+  },
+  {
+    "ID": 303,
+    "Name": "VÃ¡rzea Grande",
+    "CountryCode": "BRA",
+    "District": "Mato Grosso",
+    "Population": 214435
+  },
+  {
+    "ID": 304,
+    "Name": "Petrolina",
+    "CountryCode": "BRA",
+    "District": "Pernambuco",
+    "Population": 210540
+  },
+  {
+    "ID": 305,
+    "Name": "Barueri",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 208426
+  },
+  {
+    "ID": 306,
+    "Name": "ViamÃ£o",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 207557
+  },
+  {
+    "ID": 307,
+    "Name": "Ipatinga",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 206338
+  },
+  {
+    "ID": 308,
+    "Name": "Juazeiro",
+    "CountryCode": "BRA",
+    "District": "Bahia",
+    "Population": 201073
+  },
+  {
+    "ID": 309,
+    "Name": "Juazeiro do Norte",
+    "CountryCode": "BRA",
+    "District": "CearÃ¡",
+    "Population": 199636
+  },
+  {
+    "ID": 310,
+    "Name": "TaboÃ£o da Serra",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 197550
+  },
+  {
+    "ID": 311,
+    "Name": "SÃ£o JosÃ© dos Pinhais",
+    "CountryCode": "BRA",
+    "District": "ParanÃ¡",
+    "Population": 196884
+  },
+  {
+    "ID": 312,
+    "Name": "MagÃ©",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 196147
+  },
+  {
+    "ID": 313,
+    "Name": "Suzano",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 195434
+  },
+  {
+    "ID": 314,
+    "Name": "SÃ£o Leopoldo",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 189258
+  },
+  {
+    "ID": 315,
+    "Name": "MarÃ­lia",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 188691
+  },
+  {
+    "ID": 316,
+    "Name": "SÃ£o Carlos",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 187122
+  },
+  {
+    "ID": 317,
+    "Name": "SumarÃ©",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 186205
+  },
+  {
+    "ID": 318,
+    "Name": "Presidente Prudente",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 185340
+  },
+  {
+    "ID": 319,
+    "Name": "DivinÃ³polis",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 185047
+  },
+  {
+    "ID": 320,
+    "Name": "Sete Lagoas",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 182984
+  },
+  {
+    "ID": 321,
+    "Name": "Rio Grande",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 182222
+  },
+  {
+    "ID": 322,
+    "Name": "Itabuna",
+    "CountryCode": "BRA",
+    "District": "Bahia",
+    "Population": 182148
+  },
+  {
+    "ID": 323,
+    "Name": "JequiÃ©",
+    "CountryCode": "BRA",
+    "District": "Bahia",
+    "Population": 179128
+  },
+  {
+    "ID": 324,
+    "Name": "Arapiraca",
+    "CountryCode": "BRA",
+    "District": "Alagoas",
+    "Population": 178988
+  },
+  {
+    "ID": 325,
+    "Name": "Colombo",
+    "CountryCode": "BRA",
+    "District": "ParanÃ¡",
+    "Population": 177764
+  },
+  {
+    "ID": 326,
+    "Name": "Americana",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 177409
+  },
+  {
+    "ID": 327,
+    "Name": "Alvorada",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 175574
+  },
+  {
+    "ID": 328,
+    "Name": "Araraquara",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 174381
+  },
+  {
+    "ID": 329,
+    "Name": "ItaboraÃ­",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 173977
+  },
+  {
+    "ID": 330,
+    "Name": "Santa BÃ¡rbara dÂ´Oeste",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 171657
+  },
+  {
+    "ID": 331,
+    "Name": "Nova Friburgo",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 170697
+  },
+  {
+    "ID": 332,
+    "Name": "JacareÃ­",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 170356
+  },
+  {
+    "ID": 333,
+    "Name": "AraÃ§atuba",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 169303
+  },
+  {
+    "ID": 334,
+    "Name": "Barra Mansa",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 168953
+  },
+  {
+    "ID": 335,
+    "Name": "Praia Grande",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 168434
+  },
+  {
+    "ID": 336,
+    "Name": "MarabÃ¡",
+    "CountryCode": "BRA",
+    "District": "ParÃ¡",
+    "Population": 167795
+  },
+  {
+    "ID": 337,
+    "Name": "CriciÃºma",
+    "CountryCode": "BRA",
+    "District": "Santa Catarina",
+    "Population": 167661
+  },
+  {
+    "ID": 338,
+    "Name": "Boa Vista",
+    "CountryCode": "BRA",
+    "District": "Roraima",
+    "Population": 167185
+  },
+  {
+    "ID": 339,
+    "Name": "Passo Fundo",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 166343
+  },
+  {
+    "ID": 340,
+    "Name": "Dourados",
+    "CountryCode": "BRA",
+    "District": "Mato Grosso do Sul",
+    "Population": 164716
+  },
+  {
+    "ID": 341,
+    "Name": "Santa Luzia",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 164704
+  },
+  {
+    "ID": 342,
+    "Name": "Rio Claro",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 163551
+  },
+  {
+    "ID": 343,
+    "Name": "MaracanaÃº",
+    "CountryCode": "BRA",
+    "District": "CearÃ¡",
+    "Population": 162022
+  },
+  {
+    "ID": 344,
+    "Name": "Guarapuava",
+    "CountryCode": "BRA",
+    "District": "ParanÃ¡",
+    "Population": 160510
+  },
+  {
+    "ID": 345,
+    "Name": "RondonÃ³polis",
+    "CountryCode": "BRA",
+    "District": "Mato Grosso",
+    "Population": 155115
+  },
+  {
+    "ID": 346,
+    "Name": "SÃ£o JosÃ©",
+    "CountryCode": "BRA",
+    "District": "Santa Catarina",
+    "Population": 155105
+  },
+  {
+    "ID": 347,
+    "Name": "Cachoeiro de Itapemirim",
+    "CountryCode": "BRA",
+    "District": "EspÃ­rito Santo",
+    "Population": 155024
+  },
+  {
+    "ID": 348,
+    "Name": "NilÃ³polis",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 153383
+  },
+  {
+    "ID": 349,
+    "Name": "Itapevi",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 150664
+  },
+  {
+    "ID": 350,
+    "Name": "Cabo de Santo Agostinho",
+    "CountryCode": "BRA",
+    "District": "Pernambuco",
+    "Population": 149964
+  },
+  {
+    "ID": 351,
+    "Name": "CamaÃ§ari",
+    "CountryCode": "BRA",
+    "District": "Bahia",
+    "Population": 149146
+  },
+  {
+    "ID": 352,
+    "Name": "Sobral",
+    "CountryCode": "BRA",
+    "District": "CearÃ¡",
+    "Population": 146005
+  },
+  {
+    "ID": 353,
+    "Name": "ItajaÃ­",
+    "CountryCode": "BRA",
+    "District": "Santa Catarina",
+    "Population": 145197
+  },
+  {
+    "ID": 354,
+    "Name": "ChapecÃ³",
+    "CountryCode": "BRA",
+    "District": "Santa Catarina",
+    "Population": 144158
+  },
+  {
+    "ID": 355,
+    "Name": "Cotia",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 140042
+  },
+  {
+    "ID": 356,
+    "Name": "Lages",
+    "CountryCode": "BRA",
+    "District": "Santa Catarina",
+    "Population": 139570
+  },
+  {
+    "ID": 357,
+    "Name": "Ferraz de Vasconcelos",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 139283
+  },
+  {
+    "ID": 358,
+    "Name": "Indaiatuba",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 135968
+  },
+  {
+    "ID": 359,
+    "Name": "HortolÃ¢ndia",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 135755
+  },
+  {
+    "ID": 360,
+    "Name": "Caxias",
+    "CountryCode": "BRA",
+    "District": "MaranhÃ£o",
+    "Population": 133980
+  },
+  {
+    "ID": 361,
+    "Name": "SÃ£o Caetano do Sul",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 133321
+  },
+  {
+    "ID": 362,
+    "Name": "Itu",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 132736
+  },
+  {
+    "ID": 363,
+    "Name": "Nossa Senhora do Socorro",
+    "CountryCode": "BRA",
+    "District": "Sergipe",
+    "Population": 131351
+  },
+  {
+    "ID": 364,
+    "Name": "ParnaÃ­ba",
+    "CountryCode": "BRA",
+    "District": "PiauÃ­",
+    "Population": 129756
+  },
+  {
+    "ID": 365,
+    "Name": "PoÃ§os de Caldas",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 129683
+  },
+  {
+    "ID": 366,
+    "Name": "TeresÃ³polis",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 128079
+  },
+  {
+    "ID": 367,
+    "Name": "Barreiras",
+    "CountryCode": "BRA",
+    "District": "Bahia",
+    "Population": 127801
+  },
+  {
+    "ID": 368,
+    "Name": "Castanhal",
+    "CountryCode": "BRA",
+    "District": "ParÃ¡",
+    "Population": 127634
+  },
+  {
+    "ID": 369,
+    "Name": "Alagoinhas",
+    "CountryCode": "BRA",
+    "District": "Bahia",
+    "Population": 126820
+  },
+  {
+    "ID": 370,
+    "Name": "Itapecerica da Serra",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 126672
+  },
+  {
+    "ID": 371,
+    "Name": "Uruguaiana",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 126305
+  },
+  {
+    "ID": 372,
+    "Name": "ParanaguÃ¡",
+    "CountryCode": "BRA",
+    "District": "ParanÃ¡",
+    "Population": 126076
+  },
+  {
+    "ID": 373,
+    "Name": "IbiritÃ©",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 125982
+  },
+  {
+    "ID": 374,
+    "Name": "Timon",
+    "CountryCode": "BRA",
+    "District": "MaranhÃ£o",
+    "Population": 125812
+  },
+  {
+    "ID": 375,
+    "Name": "LuziÃ¢nia",
+    "CountryCode": "BRA",
+    "District": "GoiÃ¡s",
+    "Population": 125597
+  },
+  {
+    "ID": 376,
+    "Name": "MacaÃ©",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 125597
+  },
+  {
+    "ID": 377,
+    "Name": "TeÃ³filo Otoni",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 124489
+  },
+  {
+    "ID": 378,
+    "Name": "Moji-GuaÃ§u",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 123782
+  },
+  {
+    "ID": 379,
+    "Name": "Palmas",
+    "CountryCode": "BRA",
+    "District": "Tocantins",
+    "Population": 121919
+  },
+  {
+    "ID": 380,
+    "Name": "Pindamonhangaba",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 121904
+  },
+  {
+    "ID": 381,
+    "Name": "Francisco Morato",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 121197
+  },
+  {
+    "ID": 382,
+    "Name": "BagÃ©",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 120793
+  },
+  {
+    "ID": 383,
+    "Name": "Sapucaia do Sul",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 120217
+  },
+  {
+    "ID": 384,
+    "Name": "Cabo Frio",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 119503
+  },
+  {
+    "ID": 385,
+    "Name": "Itapetininga",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 119391
+  },
+  {
+    "ID": 386,
+    "Name": "Patos de Minas",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 119262
+  },
+  {
+    "ID": 387,
+    "Name": "Camaragibe",
+    "CountryCode": "BRA",
+    "District": "Pernambuco",
+    "Population": 118968
+  },
+  {
+    "ID": 388,
+    "Name": "BraganÃ§a Paulista",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 116929
+  },
+  {
+    "ID": 389,
+    "Name": "Queimados",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 115020
+  },
+  {
+    "ID": 390,
+    "Name": "AraguaÃ­na",
+    "CountryCode": "BRA",
+    "District": "Tocantins",
+    "Population": 114948
+  },
+  {
+    "ID": 391,
+    "Name": "Garanhuns",
+    "CountryCode": "BRA",
+    "District": "Pernambuco",
+    "Population": 114603
+  },
+  {
+    "ID": 392,
+    "Name": "VitÃ³ria de Santo AntÃ£o",
+    "CountryCode": "BRA",
+    "District": "Pernambuco",
+    "Population": 113595
+  },
+  {
+    "ID": 393,
+    "Name": "Santa Rita",
+    "CountryCode": "BRA",
+    "District": "ParaÃ­ba",
+    "Population": 113135
+  },
+  {
+    "ID": 394,
+    "Name": "Barbacena",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 113079
+  },
+  {
+    "ID": 395,
+    "Name": "Abaetetuba",
+    "CountryCode": "BRA",
+    "District": "ParÃ¡",
+    "Population": 111258
+  },
+  {
+    "ID": 396,
+    "Name": "JaÃº",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 109965
+  },
+  {
+    "ID": 397,
+    "Name": "Lauro de Freitas",
+    "CountryCode": "BRA",
+    "District": "Bahia",
+    "Population": 109236
+  },
+  {
+    "ID": 398,
+    "Name": "Franco da Rocha",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 108964
+  },
+  {
+    "ID": 399,
+    "Name": "Teixeira de Freitas",
+    "CountryCode": "BRA",
+    "District": "Bahia",
+    "Population": 108441
+  },
+  {
+    "ID": 400,
+    "Name": "Varginha",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 108314
+  },
+  {
+    "ID": 401,
+    "Name": "RibeirÃ£o Pires",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 108121
+  },
+  {
+    "ID": 402,
+    "Name": "SabarÃ¡",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 107781
+  },
+  {
+    "ID": 403,
+    "Name": "Catanduva",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 107761
+  },
+  {
+    "ID": 404,
+    "Name": "Rio Verde",
+    "CountryCode": "BRA",
+    "District": "GoiÃ¡s",
+    "Population": 107755
+  },
+  {
+    "ID": 405,
+    "Name": "Botucatu",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 107663
+  },
+  {
+    "ID": 406,
+    "Name": "Colatina",
+    "CountryCode": "BRA",
+    "District": "EspÃ­rito Santo",
+    "Population": 107354
+  },
+  {
+    "ID": 407,
+    "Name": "Santa Cruz do Sul",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 106734
+  },
+  {
+    "ID": 408,
+    "Name": "Linhares",
+    "CountryCode": "BRA",
+    "District": "EspÃ­rito Santo",
+    "Population": 106278
+  },
+  {
+    "ID": 409,
+    "Name": "Apucarana",
+    "CountryCode": "BRA",
+    "District": "ParanÃ¡",
+    "Population": 105114
+  },
+  {
+    "ID": 410,
+    "Name": "Barretos",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 104156
+  },
+  {
+    "ID": 411,
+    "Name": "GuaratinguetÃ¡",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 103433
+  },
+  {
+    "ID": 412,
+    "Name": "Cachoeirinha",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 103240
+  },
+  {
+    "ID": 413,
+    "Name": "CodÃ³",
+    "CountryCode": "BRA",
+    "District": "MaranhÃ£o",
+    "Population": 103153
+  },
+  {
+    "ID": 414,
+    "Name": "JaraguÃ¡ do Sul",
+    "CountryCode": "BRA",
+    "District": "Santa Catarina",
+    "Population": 102580
+  },
+  {
+    "ID": 415,
+    "Name": "CubatÃ£o",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 102372
+  },
+  {
+    "ID": 416,
+    "Name": "Itabira",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 102217
+  },
+  {
+    "ID": 417,
+    "Name": "Itaituba",
+    "CountryCode": "BRA",
+    "District": "ParÃ¡",
+    "Population": 101320
+  },
+  {
+    "ID": 418,
+    "Name": "Araras",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 101046
+  },
+  {
+    "ID": 419,
+    "Name": "Resende",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 100627
+  },
+  {
+    "ID": 420,
+    "Name": "Atibaia",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 100356
+  },
+  {
+    "ID": 421,
+    "Name": "Pouso Alegre",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 100028
+  },
+  {
+    "ID": 422,
+    "Name": "Toledo",
+    "CountryCode": "BRA",
+    "District": "ParanÃ¡",
+    "Population": 99387
+  },
+  {
+    "ID": 423,
+    "Name": "Crato",
+    "CountryCode": "BRA",
+    "District": "CearÃ¡",
+    "Population": 98965
+  },
+  {
+    "ID": 424,
+    "Name": "Passos",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 98570
+  },
+  {
+    "ID": 425,
+    "Name": "Araguari",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 98399
+  },
+  {
+    "ID": 426,
+    "Name": "SÃ£o JosÃ© de Ribamar",
+    "CountryCode": "BRA",
+    "District": "MaranhÃ£o",
+    "Population": 98318
+  },
+  {
+    "ID": 427,
+    "Name": "Pinhais",
+    "CountryCode": "BRA",
+    "District": "ParanÃ¡",
+    "Population": 98198
+  },
+  {
+    "ID": 428,
+    "Name": "SertÃ£ozinho",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 98140
+  },
+  {
+    "ID": 429,
+    "Name": "Conselheiro Lafaiete",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 97507
+  },
+  {
+    "ID": 430,
+    "Name": "Paulo Afonso",
+    "CountryCode": "BRA",
+    "District": "Bahia",
+    "Population": 97291
+  },
+  {
+    "ID": 431,
+    "Name": "Angra dos Reis",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 96864
+  },
+  {
+    "ID": 432,
+    "Name": "EunÃ¡polis",
+    "CountryCode": "BRA",
+    "District": "Bahia",
+    "Population": 96610
+  },
+  {
+    "ID": 433,
+    "Name": "Salto",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 96348
+  },
+  {
+    "ID": 434,
+    "Name": "Ourinhos",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 96291
+  },
+  {
+    "ID": 435,
+    "Name": "Parnamirim",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Norte",
+    "Population": 96210
+  },
+  {
+    "ID": 436,
+    "Name": "Jacobina",
+    "CountryCode": "BRA",
+    "District": "Bahia",
+    "Population": 96131
+  },
+  {
+    "ID": 437,
+    "Name": "Coronel Fabriciano",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 95933
+  },
+  {
+    "ID": 438,
+    "Name": "Birigui",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 94685
+  },
+  {
+    "ID": 439,
+    "Name": "TatuÃ­",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 93897
+  },
+  {
+    "ID": 440,
+    "Name": "Ji-ParanÃ¡",
+    "CountryCode": "BRA",
+    "District": "RondÃ´nia",
+    "Population": 93346
+  },
+  {
+    "ID": 441,
+    "Name": "Bacabal",
+    "CountryCode": "BRA",
+    "District": "MaranhÃ£o",
+    "Population": 93121
+  },
+  {
+    "ID": 442,
+    "Name": "CametÃ¡",
+    "CountryCode": "BRA",
+    "District": "ParÃ¡",
+    "Population": 92779
+  },
+  {
+    "ID": 443,
+    "Name": "GuaÃ­ba",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 92224
+  },
+  {
+    "ID": 444,
+    "Name": "SÃ£o LourenÃ§o da Mata",
+    "CountryCode": "BRA",
+    "District": "Pernambuco",
+    "Population": 91999
+  },
+  {
+    "ID": 445,
+    "Name": "Santana do Livramento",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 91779
+  },
+  {
+    "ID": 446,
+    "Name": "Votorantim",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 91777
+  },
+  {
+    "ID": 447,
+    "Name": "Campo Largo",
+    "CountryCode": "BRA",
+    "District": "ParanÃ¡",
+    "Population": 91203
+  },
+  {
+    "ID": 448,
+    "Name": "Patos",
+    "CountryCode": "BRA",
+    "District": "ParaÃ­ba",
+    "Population": 90519
+  },
+  {
+    "ID": 449,
+    "Name": "Ituiutaba",
+    "CountryCode": "BRA",
+    "District": "Minas Gerais",
+    "Population": 90507
+  },
+  {
+    "ID": 450,
+    "Name": "CorumbÃ¡",
+    "CountryCode": "BRA",
+    "District": "Mato Grosso do Sul",
+    "Population": 90111
+  },
+  {
+    "ID": 451,
+    "Name": "PalhoÃ§a",
+    "CountryCode": "BRA",
+    "District": "Santa Catarina",
+    "Population": 89465
+  },
+  {
+    "ID": 452,
+    "Name": "Barra do PiraÃ­",
+    "CountryCode": "BRA",
+    "District": "Rio de Janeiro",
+    "Population": 89388
+  },
+  {
+    "ID": 453,
+    "Name": "Bento GonÃ§alves",
+    "CountryCode": "BRA",
+    "District": "Rio Grande do Sul",
+    "Population": 89254
+  },
+  {
+    "ID": 454,
+    "Name": "PoÃ¡",
+    "CountryCode": "BRA",
+    "District": "SÃ£o Paulo",
+    "Population": 89236
+  },
+  {
+    "ID": 455,
+    "Name": "Ãguas Lindas de GoiÃ¡s",
+    "CountryCode": "BRA",
+    "District": "GoiÃ¡s",
+    "Population": 89200
+  },
+  {
+    "ID": 456,
+    "Name": "London",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 7285000
+  },
+  {
+    "ID": 457,
+    "Name": "Birmingham",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 1013000
+  },
+  {
+    "ID": 458,
+    "Name": "Glasgow",
+    "CountryCode": "GBR",
+    "District": "Scotland",
+    "Population": 619680
+  },
+  {
+    "ID": 459,
+    "Name": "Liverpool",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 461000
+  },
+  {
+    "ID": 460,
+    "Name": "Edinburgh",
+    "CountryCode": "GBR",
+    "District": "Scotland",
+    "Population": 450180
+  },
+  {
+    "ID": 461,
+    "Name": "Sheffield",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 431607
+  },
+  {
+    "ID": 462,
+    "Name": "Manchester",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 430000
+  },
+  {
+    "ID": 463,
+    "Name": "Leeds",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 424194
+  },
+  {
+    "ID": 464,
+    "Name": "Bristol",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 402000
+  },
+  {
+    "ID": 465,
+    "Name": "Cardiff",
+    "CountryCode": "GBR",
+    "District": "Wales",
+    "Population": 321000
+  },
+  {
+    "ID": 466,
+    "Name": "Coventry",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 304000
+  },
+  {
+    "ID": 467,
+    "Name": "Leicester",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 294000
+  },
+  {
+    "ID": 468,
+    "Name": "Bradford",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 289376
+  },
+  {
+    "ID": 469,
+    "Name": "Belfast",
+    "CountryCode": "GBR",
+    "District": "North Ireland",
+    "Population": 287500
+  },
+  {
+    "ID": 470,
+    "Name": "Nottingham",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 287000
+  },
+  {
+    "ID": 471,
+    "Name": "Kingston upon Hull",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 262000
+  },
+  {
+    "ID": 472,
+    "Name": "Plymouth",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 253000
+  },
+  {
+    "ID": 473,
+    "Name": "Stoke-on-Trent",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 252000
+  },
+  {
+    "ID": 474,
+    "Name": "Wolverhampton",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 242000
+  },
+  {
+    "ID": 475,
+    "Name": "Derby",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 236000
+  },
+  {
+    "ID": 476,
+    "Name": "Swansea",
+    "CountryCode": "GBR",
+    "District": "Wales",
+    "Population": 230000
+  },
+  {
+    "ID": 477,
+    "Name": "Southampton",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 216000
+  },
+  {
+    "ID": 478,
+    "Name": "Aberdeen",
+    "CountryCode": "GBR",
+    "District": "Scotland",
+    "Population": 213070
+  },
+  {
+    "ID": 479,
+    "Name": "Northampton",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 196000
+  },
+  {
+    "ID": 480,
+    "Name": "Dudley",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 192171
+  },
+  {
+    "ID": 481,
+    "Name": "Portsmouth",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 190000
+  },
+  {
+    "ID": 482,
+    "Name": "Newcastle upon Tyne",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 189150
+  },
+  {
+    "ID": 483,
+    "Name": "Sunderland",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 183310
+  },
+  {
+    "ID": 484,
+    "Name": "Luton",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 183000
+  },
+  {
+    "ID": 485,
+    "Name": "Swindon",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 180000
+  },
+  {
+    "ID": 486,
+    "Name": "Southend-on-Sea",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 176000
+  },
+  {
+    "ID": 487,
+    "Name": "Walsall",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 174739
+  },
+  {
+    "ID": 488,
+    "Name": "Bournemouth",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 162000
+  },
+  {
+    "ID": 489,
+    "Name": "Peterborough",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 156000
+  },
+  {
+    "ID": 490,
+    "Name": "Brighton",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 156124
+  },
+  {
+    "ID": 491,
+    "Name": "Blackpool",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 151000
+  },
+  {
+    "ID": 492,
+    "Name": "Dundee",
+    "CountryCode": "GBR",
+    "District": "Scotland",
+    "Population": 146690
+  },
+  {
+    "ID": 493,
+    "Name": "West Bromwich",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 146386
+  },
+  {
+    "ID": 494,
+    "Name": "Reading",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 148000
+  },
+  {
+    "ID": 495,
+    "Name": "Oldbury/Smethwick (Warley)",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 145542
+  },
+  {
+    "ID": 496,
+    "Name": "Middlesbrough",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 145000
+  },
+  {
+    "ID": 497,
+    "Name": "Huddersfield",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 143726
+  },
+  {
+    "ID": 498,
+    "Name": "Oxford",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 144000
+  },
+  {
+    "ID": 499,
+    "Name": "Poole",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 141000
+  },
+  {
+    "ID": 500,
+    "Name": "Bolton",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 139020
+  },
+  {
+    "ID": 501,
+    "Name": "Blackburn",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 140000
+  },
+  {
+    "ID": 502,
+    "Name": "Newport",
+    "CountryCode": "GBR",
+    "District": "Wales",
+    "Population": 139000
+  },
+  {
+    "ID": 503,
+    "Name": "Preston",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 135000
+  },
+  {
+    "ID": 504,
+    "Name": "Stockport",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 132813
+  },
+  {
+    "ID": 505,
+    "Name": "Norwich",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 124000
+  },
+  {
+    "ID": 506,
+    "Name": "Rotherham",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 121380
+  },
+  {
+    "ID": 507,
+    "Name": "Cambridge",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 121000
+  },
+  {
+    "ID": 508,
+    "Name": "Watford",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 113080
+  },
+  {
+    "ID": 509,
+    "Name": "Ipswich",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 114000
+  },
+  {
+    "ID": 510,
+    "Name": "Slough",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 112000
+  },
+  {
+    "ID": 511,
+    "Name": "Exeter",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 111000
+  },
+  {
+    "ID": 512,
+    "Name": "Cheltenham",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 106000
+  },
+  {
+    "ID": 513,
+    "Name": "Gloucester",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 107000
+  },
+  {
+    "ID": 514,
+    "Name": "Saint Helens",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 106293
+  },
+  {
+    "ID": 515,
+    "Name": "Sutton Coldfield",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 106001
+  },
+  {
+    "ID": 516,
+    "Name": "York",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 104425
+  },
+  {
+    "ID": 517,
+    "Name": "Oldham",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 103931
+  },
+  {
+    "ID": 518,
+    "Name": "Basildon",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 100924
+  },
+  {
+    "ID": 519,
+    "Name": "Worthing",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 100000
+  },
+  {
+    "ID": 520,
+    "Name": "Chelmsford",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 97451
+  },
+  {
+    "ID": 521,
+    "Name": "Colchester",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 96063
+  },
+  {
+    "ID": 522,
+    "Name": "Crawley",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 97000
+  },
+  {
+    "ID": 523,
+    "Name": "Gillingham",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 92000
+  },
+  {
+    "ID": 524,
+    "Name": "Solihull",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 94531
+  },
+  {
+    "ID": 525,
+    "Name": "Rochdale",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 94313
+  },
+  {
+    "ID": 526,
+    "Name": "Birkenhead",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 93087
+  },
+  {
+    "ID": 527,
+    "Name": "Worcester",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 95000
+  },
+  {
+    "ID": 528,
+    "Name": "Hartlepool",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 92000
+  },
+  {
+    "ID": 529,
+    "Name": "Halifax",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 91069
+  },
+  {
+    "ID": 530,
+    "Name": "Woking/Byfleet",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 92000
+  },
+  {
+    "ID": 531,
+    "Name": "Southport",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 90959
+  },
+  {
+    "ID": 532,
+    "Name": "Maidstone",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 90878
+  },
+  {
+    "ID": 533,
+    "Name": "Eastbourne",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 90000
+  },
+  {
+    "ID": 534,
+    "Name": "Grimsby",
+    "CountryCode": "GBR",
+    "District": "England",
+    "Population": 89000
+  },
+  {
+    "ID": 535,
+    "Name": "Saint Helier",
+    "CountryCode": "GBR",
+    "District": "Jersey",
+    "Population": 27523
+  },
+  {
+    "ID": 536,
+    "Name": "Douglas",
+    "CountryCode": "GBR",
+    "District": "Â–",
+    "Population": 23487
+  },
+  {
+    "ID": 537,
+    "Name": "Road Town",
+    "CountryCode": "VGB",
+    "District": "Tortola",
+    "Population": 8000
+  },
+  {
+    "ID": 538,
+    "Name": "Bandar Seri Begawan",
+    "CountryCode": "BRN",
+    "District": "Brunei and Muara",
+    "Population": 21484
+  },
+  {
+    "ID": 539,
+    "Name": "Sofija",
+    "CountryCode": "BGR",
+    "District": "Grad Sofija",
+    "Population": 1122302
+  },
+  {
+    "ID": 540,
+    "Name": "Plovdiv",
+    "CountryCode": "BGR",
+    "District": "Plovdiv",
+    "Population": 342584
+  },
+  {
+    "ID": 541,
+    "Name": "Varna",
+    "CountryCode": "BGR",
+    "District": "Varna",
+    "Population": 299801
+  },
+  {
+    "ID": 542,
+    "Name": "Burgas",
+    "CountryCode": "BGR",
+    "District": "Burgas",
+    "Population": 195255
+  },
+  {
+    "ID": 543,
+    "Name": "Ruse",
+    "CountryCode": "BGR",
+    "District": "Ruse",
+    "Population": 166467
+  },
+  {
+    "ID": 544,
+    "Name": "Stara Zagora",
+    "CountryCode": "BGR",
+    "District": "Haskovo",
+    "Population": 147939
+  },
+  {
+    "ID": 545,
+    "Name": "Pleven",
+    "CountryCode": "BGR",
+    "District": "Lovec",
+    "Population": 121952
+  },
+  {
+    "ID": 546,
+    "Name": "Sliven",
+    "CountryCode": "BGR",
+    "District": "Burgas",
+    "Population": 105530
+  },
+  {
+    "ID": 547,
+    "Name": "Dobric",
+    "CountryCode": "BGR",
+    "District": "Varna",
+    "Population": 100399
+  },
+  {
+    "ID": 548,
+    "Name": "ÂŠumen",
+    "CountryCode": "BGR",
+    "District": "Varna",
+    "Population": 94686
+  },
+  {
+    "ID": 549,
+    "Name": "Ouagadougou",
+    "CountryCode": "BFA",
+    "District": "Kadiogo",
+    "Population": 824000
+  },
+  {
+    "ID": 550,
+    "Name": "Bobo-Dioulasso",
+    "CountryCode": "BFA",
+    "District": "Houet",
+    "Population": 300000
+  },
+  {
+    "ID": 551,
+    "Name": "Koudougou",
+    "CountryCode": "BFA",
+    "District": "BoulkiemdÃ©",
+    "Population": 105000
+  },
+  {
+    "ID": 552,
+    "Name": "Bujumbura",
+    "CountryCode": "BDI",
+    "District": "Bujumbura",
+    "Population": 300000
+  },
+  {
+    "ID": 553,
+    "Name": "George Town",
+    "CountryCode": "CYM",
+    "District": "Grand Cayman",
+    "Population": 19600
+  },
+  {
+    "ID": 554,
+    "Name": "Santiago de Chile",
+    "CountryCode": "CHL",
+    "District": "Santiago",
+    "Population": 4703954
+  },
+  {
+    "ID": 555,
+    "Name": "Puente Alto",
+    "CountryCode": "CHL",
+    "District": "Santiago",
+    "Population": 386236
+  },
+  {
+    "ID": 556,
+    "Name": "ViÃ±a del Mar",
+    "CountryCode": "CHL",
+    "District": "ValparaÃ­so",
+    "Population": 312493
+  },
+  {
+    "ID": 557,
+    "Name": "ValparaÃ­so",
+    "CountryCode": "CHL",
+    "District": "ValparaÃ­so",
+    "Population": 293800
+  },
+  {
+    "ID": 558,
+    "Name": "Talcahuano",
+    "CountryCode": "CHL",
+    "District": "BÃ­obÃ­o",
+    "Population": 277752
+  },
+  {
+    "ID": 559,
+    "Name": "Antofagasta",
+    "CountryCode": "CHL",
+    "District": "Antofagasta",
+    "Population": 251429
+  },
+  {
+    "ID": 560,
+    "Name": "San Bernardo",
+    "CountryCode": "CHL",
+    "District": "Santiago",
+    "Population": 241910
+  },
+  {
+    "ID": 561,
+    "Name": "Temuco",
+    "CountryCode": "CHL",
+    "District": "La AraucanÃ­a",
+    "Population": 233041
+  },
+  {
+    "ID": 562,
+    "Name": "ConcepciÃ³n",
+    "CountryCode": "CHL",
+    "District": "BÃ­obÃ­o",
+    "Population": 217664
+  },
+  {
+    "ID": 563,
+    "Name": "Rancagua",
+    "CountryCode": "CHL",
+    "District": "OÂ´Higgins",
+    "Population": 212977
+  },
+  {
+    "ID": 564,
+    "Name": "Arica",
+    "CountryCode": "CHL",
+    "District": "TarapacÃ¡",
+    "Population": 189036
+  },
+  {
+    "ID": 565,
+    "Name": "Talca",
+    "CountryCode": "CHL",
+    "District": "Maule",
+    "Population": 187557
+  },
+  {
+    "ID": 566,
+    "Name": "ChillÃ¡n",
+    "CountryCode": "CHL",
+    "District": "BÃ­obÃ­o",
+    "Population": 178182
+  },
+  {
+    "ID": 567,
+    "Name": "Iquique",
+    "CountryCode": "CHL",
+    "District": "TarapacÃ¡",
+    "Population": 177892
+  },
+  {
+    "ID": 568,
+    "Name": "Los Angeles",
+    "CountryCode": "CHL",
+    "District": "BÃ­obÃ­o",
+    "Population": 158215
+  },
+  {
+    "ID": 569,
+    "Name": "Puerto Montt",
+    "CountryCode": "CHL",
+    "District": "Los Lagos",
+    "Population": 152194
+  },
+  {
+    "ID": 570,
+    "Name": "Coquimbo",
+    "CountryCode": "CHL",
+    "District": "Coquimbo",
+    "Population": 143353
+  },
+  {
+    "ID": 571,
+    "Name": "Osorno",
+    "CountryCode": "CHL",
+    "District": "Los Lagos",
+    "Population": 141468
+  },
+  {
+    "ID": 572,
+    "Name": "La Serena",
+    "CountryCode": "CHL",
+    "District": "Coquimbo",
+    "Population": 137409
+  },
+  {
+    "ID": 573,
+    "Name": "Calama",
+    "CountryCode": "CHL",
+    "District": "Antofagasta",
+    "Population": 137265
+  },
+  {
+    "ID": 574,
+    "Name": "Valdivia",
+    "CountryCode": "CHL",
+    "District": "Los Lagos",
+    "Population": 133106
+  },
+  {
+    "ID": 575,
+    "Name": "Punta Arenas",
+    "CountryCode": "CHL",
+    "District": "Magallanes",
+    "Population": 125631
+  },
+  {
+    "ID": 576,
+    "Name": "CopiapÃ³",
+    "CountryCode": "CHL",
+    "District": "Atacama",
+    "Population": 120128
+  },
+  {
+    "ID": 577,
+    "Name": "QuilpuÃ©",
+    "CountryCode": "CHL",
+    "District": "ValparaÃ­so",
+    "Population": 118857
+  },
+  {
+    "ID": 578,
+    "Name": "CuricÃ³",
+    "CountryCode": "CHL",
+    "District": "Maule",
+    "Population": 115766
+  },
+  {
+    "ID": 579,
+    "Name": "Ovalle",
+    "CountryCode": "CHL",
+    "District": "Coquimbo",
+    "Population": 94854
+  },
+  {
+    "ID": 580,
+    "Name": "Coronel",
+    "CountryCode": "CHL",
+    "District": "BÃ­obÃ­o",
+    "Population": 93061
+  },
+  {
+    "ID": 581,
+    "Name": "San Pedro de la Paz",
+    "CountryCode": "CHL",
+    "District": "BÃ­obÃ­o",
+    "Population": 91684
+  },
+  {
+    "ID": 582,
+    "Name": "Melipilla",
+    "CountryCode": "CHL",
+    "District": "Santiago",
+    "Population": 91056
+  },
+  {
+    "ID": 583,
+    "Name": "Avarua",
+    "CountryCode": "COK",
+    "District": "Rarotonga",
+    "Population": 11900
+  },
+  {
+    "ID": 584,
+    "Name": "San JosÃ©",
+    "CountryCode": "CRI",
+    "District": "San JosÃ©",
+    "Population": 339131
+  },
+  {
+    "ID": 585,
+    "Name": "Djibouti",
+    "CountryCode": "DJI",
+    "District": "Djibouti",
+    "Population": 383000
+  },
+  {
+    "ID": 586,
+    "Name": "Roseau",
+    "CountryCode": "DMA",
+    "District": "St George",
+    "Population": 16243
+  },
+  {
+    "ID": 587,
+    "Name": "Santo Domingo de GuzmÃ¡n",
+    "CountryCode": "DOM",
+    "District": "Distrito Nacional",
+    "Population": 1609966
+  },
+  {
+    "ID": 588,
+    "Name": "Santiago de los Caballeros",
+    "CountryCode": "DOM",
+    "District": "Santiago",
+    "Population": 365463
+  },
+  {
+    "ID": 589,
+    "Name": "La Romana",
+    "CountryCode": "DOM",
+    "District": "La Romana",
+    "Population": 140204
+  },
+  {
+    "ID": 590,
+    "Name": "San Pedro de MacorÃ­s",
+    "CountryCode": "DOM",
+    "District": "San Pedro de MacorÃ­",
+    "Population": 124735
+  },
+  {
+    "ID": 591,
+    "Name": "San Francisco de MacorÃ­s",
+    "CountryCode": "DOM",
+    "District": "Duarte",
+    "Population": 108485
+  },
+  {
+    "ID": 592,
+    "Name": "San Felipe de Puerto Plata",
+    "CountryCode": "DOM",
+    "District": "Puerto Plata",
+    "Population": 89423
+  },
+  {
+    "ID": 593,
+    "Name": "Guayaquil",
+    "CountryCode": "ECU",
+    "District": "Guayas",
+    "Population": 2070040
+  },
+  {
+    "ID": 594,
+    "Name": "Quito",
+    "CountryCode": "ECU",
+    "District": "Pichincha",
+    "Population": 1573458
+  },
+  {
+    "ID": 595,
+    "Name": "Cuenca",
+    "CountryCode": "ECU",
+    "District": "Azuay",
+    "Population": 270353
+  },
+  {
+    "ID": 596,
+    "Name": "Machala",
+    "CountryCode": "ECU",
+    "District": "El Oro",
+    "Population": 210368
+  },
+  {
+    "ID": 597,
+    "Name": "Santo Domingo de los Colorados",
+    "CountryCode": "ECU",
+    "District": "Pichincha",
+    "Population": 202111
+  },
+  {
+    "ID": 598,
+    "Name": "Portoviejo",
+    "CountryCode": "ECU",
+    "District": "ManabÃ­",
+    "Population": 176413
+  },
+  {
+    "ID": 599,
+    "Name": "Ambato",
+    "CountryCode": "ECU",
+    "District": "Tungurahua",
+    "Population": 169612
+  },
+  {
+    "ID": 600,
+    "Name": "Manta",
+    "CountryCode": "ECU",
+    "District": "ManabÃ­",
+    "Population": 164739
+  },
+  {
+    "ID": 601,
+    "Name": "Duran [Eloy Alfaro]",
+    "CountryCode": "ECU",
+    "District": "Guayas",
+    "Population": 152514
+  },
+  {
+    "ID": 602,
+    "Name": "Ibarra",
+    "CountryCode": "ECU",
+    "District": "Imbabura",
+    "Population": 130643
+  },
+  {
+    "ID": 603,
+    "Name": "Quevedo",
+    "CountryCode": "ECU",
+    "District": "Los RÃ­os",
+    "Population": 129631
+  },
+  {
+    "ID": 604,
+    "Name": "Milagro",
+    "CountryCode": "ECU",
+    "District": "Guayas",
+    "Population": 124177
+  },
+  {
+    "ID": 605,
+    "Name": "Loja",
+    "CountryCode": "ECU",
+    "District": "Loja",
+    "Population": 123875
+  },
+  {
+    "ID": 606,
+    "Name": "RÃ­obamba",
+    "CountryCode": "ECU",
+    "District": "Chimborazo",
+    "Population": 123163
+  },
+  {
+    "ID": 607,
+    "Name": "Esmeraldas",
+    "CountryCode": "ECU",
+    "District": "Esmeraldas",
+    "Population": 123045
+  },
+  {
+    "ID": 608,
+    "Name": "Cairo",
+    "CountryCode": "EGY",
+    "District": "Kairo",
+    "Population": 6789479
+  },
+  {
+    "ID": 609,
+    "Name": "Alexandria",
+    "CountryCode": "EGY",
+    "District": "Aleksandria",
+    "Population": 3328196
+  },
+  {
+    "ID": 610,
+    "Name": "Giza",
+    "CountryCode": "EGY",
+    "District": "Giza",
+    "Population": 2221868
+  },
+  {
+    "ID": 611,
+    "Name": "Shubra al-Khayma",
+    "CountryCode": "EGY",
+    "District": "al-Qalyubiya",
+    "Population": 870716
+  },
+  {
+    "ID": 612,
+    "Name": "Port Said",
+    "CountryCode": "EGY",
+    "District": "Port Said",
+    "Population": 469533
+  },
+  {
+    "ID": 613,
+    "Name": "Suez",
+    "CountryCode": "EGY",
+    "District": "Suez",
+    "Population": 417610
+  },
+  {
+    "ID": 614,
+    "Name": "al-Mahallat al-Kubra",
+    "CountryCode": "EGY",
+    "District": "al-Gharbiya",
+    "Population": 395402
+  },
+  {
+    "ID": 615,
+    "Name": "Tanta",
+    "CountryCode": "EGY",
+    "District": "al-Gharbiya",
+    "Population": 371010
+  },
+  {
+    "ID": 616,
+    "Name": "al-Mansura",
+    "CountryCode": "EGY",
+    "District": "al-Daqahliya",
+    "Population": 369621
+  },
+  {
+    "ID": 617,
+    "Name": "Luxor",
+    "CountryCode": "EGY",
+    "District": "Luxor",
+    "Population": 360503
+  },
+  {
+    "ID": 618,
+    "Name": "Asyut",
+    "CountryCode": "EGY",
+    "District": "Asyut",
+    "Population": 343498
+  },
+  {
+    "ID": 619,
+    "Name": "Bahtim",
+    "CountryCode": "EGY",
+    "District": "al-Qalyubiya",
+    "Population": 275807
+  },
+  {
+    "ID": 620,
+    "Name": "Zagazig",
+    "CountryCode": "EGY",
+    "District": "al-Sharqiya",
+    "Population": 267351
+  },
+  {
+    "ID": 621,
+    "Name": "al-Faiyum",
+    "CountryCode": "EGY",
+    "District": "al-Faiyum",
+    "Population": 260964
+  },
+  {
+    "ID": 622,
+    "Name": "Ismailia",
+    "CountryCode": "EGY",
+    "District": "Ismailia",
+    "Population": 254477
+  },
+  {
+    "ID": 623,
+    "Name": "Kafr al-Dawwar",
+    "CountryCode": "EGY",
+    "District": "al-Buhayra",
+    "Population": 231978
+  },
+  {
+    "ID": 624,
+    "Name": "Assuan",
+    "CountryCode": "EGY",
+    "District": "Assuan",
+    "Population": 219017
+  },
+  {
+    "ID": 625,
+    "Name": "Damanhur",
+    "CountryCode": "EGY",
+    "District": "al-Buhayra",
+    "Population": 212203
+  },
+  {
+    "ID": 626,
+    "Name": "al-Minya",
+    "CountryCode": "EGY",
+    "District": "al-Minya",
+    "Population": 201360
+  },
+  {
+    "ID": 627,
+    "Name": "Bani Suwayf",
+    "CountryCode": "EGY",
+    "District": "Bani Suwayf",
+    "Population": 172032
+  },
+  {
+    "ID": 628,
+    "Name": "Qina",
+    "CountryCode": "EGY",
+    "District": "Qina",
+    "Population": 171275
+  },
+  {
+    "ID": 629,
+    "Name": "Sawhaj",
+    "CountryCode": "EGY",
+    "District": "Sawhaj",
+    "Population": 170125
+  },
+  {
+    "ID": 630,
+    "Name": "Shibin al-Kawm",
+    "CountryCode": "EGY",
+    "District": "al-Minufiya",
+    "Population": 159909
+  },
+  {
+    "ID": 631,
+    "Name": "Bulaq al-Dakrur",
+    "CountryCode": "EGY",
+    "District": "Giza",
+    "Population": 148787
+  },
+  {
+    "ID": 632,
+    "Name": "Banha",
+    "CountryCode": "EGY",
+    "District": "al-Qalyubiya",
+    "Population": 145792
+  },
+  {
+    "ID": 633,
+    "Name": "Warraq al-Arab",
+    "CountryCode": "EGY",
+    "District": "Giza",
+    "Population": 127108
+  },
+  {
+    "ID": 634,
+    "Name": "Kafr al-Shaykh",
+    "CountryCode": "EGY",
+    "District": "Kafr al-Shaykh",
+    "Population": 124819
+  },
+  {
+    "ID": 635,
+    "Name": "Mallawi",
+    "CountryCode": "EGY",
+    "District": "al-Minya",
+    "Population": 119283
+  },
+  {
+    "ID": 636,
+    "Name": "Bilbays",
+    "CountryCode": "EGY",
+    "District": "al-Sharqiya",
+    "Population": 113608
+  },
+  {
+    "ID": 637,
+    "Name": "Mit Ghamr",
+    "CountryCode": "EGY",
+    "District": "al-Daqahliya",
+    "Population": 101801
+  },
+  {
+    "ID": 638,
+    "Name": "al-Arish",
+    "CountryCode": "EGY",
+    "District": "Shamal Sina",
+    "Population": 100447
+  },
+  {
+    "ID": 639,
+    "Name": "Talkha",
+    "CountryCode": "EGY",
+    "District": "al-Daqahliya",
+    "Population": 97700
+  },
+  {
+    "ID": 640,
+    "Name": "Qalyub",
+    "CountryCode": "EGY",
+    "District": "al-Qalyubiya",
+    "Population": 97200
+  },
+  {
+    "ID": 641,
+    "Name": "Jirja",
+    "CountryCode": "EGY",
+    "District": "Sawhaj",
+    "Population": 95400
+  },
+  {
+    "ID": 642,
+    "Name": "Idfu",
+    "CountryCode": "EGY",
+    "District": "Qina",
+    "Population": 94200
+  },
+  {
+    "ID": 643,
+    "Name": "al-Hawamidiya",
+    "CountryCode": "EGY",
+    "District": "Giza",
+    "Population": 91700
+  },
+  {
+    "ID": 644,
+    "Name": "Disuq",
+    "CountryCode": "EGY",
+    "District": "Kafr al-Shaykh",
+    "Population": 91300
+  },
+  {
+    "ID": 645,
+    "Name": "San Salvador",
+    "CountryCode": "SLV",
+    "District": "San Salvador",
+    "Population": 415346
+  },
+  {
+    "ID": 646,
+    "Name": "Santa Ana",
+    "CountryCode": "SLV",
+    "District": "Santa Ana",
+    "Population": 139389
+  },
+  {
+    "ID": 647,
+    "Name": "Mejicanos",
+    "CountryCode": "SLV",
+    "District": "San Salvador",
+    "Population": 138800
+  },
+  {
+    "ID": 648,
+    "Name": "Soyapango",
+    "CountryCode": "SLV",
+    "District": "San Salvador",
+    "Population": 129800
+  },
+  {
+    "ID": 649,
+    "Name": "San Miguel",
+    "CountryCode": "SLV",
+    "District": "San Miguel",
+    "Population": 127696
+  },
+  {
+    "ID": 650,
+    "Name": "Nueva San Salvador",
+    "CountryCode": "SLV",
+    "District": "La Libertad",
+    "Population": 98400
+  },
+  {
+    "ID": 651,
+    "Name": "Apopa",
+    "CountryCode": "SLV",
+    "District": "San Salvador",
+    "Population": 88800
+  },
+  {
+    "ID": 652,
+    "Name": "Asmara",
+    "CountryCode": "ERI",
+    "District": "Maekel",
+    "Population": 431000
+  },
+  {
+    "ID": 653,
+    "Name": "Madrid",
+    "CountryCode": "ESP",
+    "District": "Madrid",
+    "Population": 2879052
+  },
+  {
+    "ID": 654,
+    "Name": "Barcelona",
+    "CountryCode": "ESP",
+    "District": "Katalonia",
+    "Population": 1503451
+  },
+  {
+    "ID": 655,
+    "Name": "Valencia",
+    "CountryCode": "ESP",
+    "District": "Valencia",
+    "Population": 739412
+  },
+  {
+    "ID": 656,
+    "Name": "Sevilla",
+    "CountryCode": "ESP",
+    "District": "Andalusia",
+    "Population": 701927
+  },
+  {
+    "ID": 657,
+    "Name": "Zaragoza",
+    "CountryCode": "ESP",
+    "District": "Aragonia",
+    "Population": 603367
+  },
+  {
+    "ID": 658,
+    "Name": "MÃ¡laga",
+    "CountryCode": "ESP",
+    "District": "Andalusia",
+    "Population": 530553
+  },
+  {
+    "ID": 659,
+    "Name": "Bilbao",
+    "CountryCode": "ESP",
+    "District": "Baskimaa",
+    "Population": 357589
+  },
+  {
+    "ID": 660,
+    "Name": "Las Palmas de Gran Canaria",
+    "CountryCode": "ESP",
+    "District": "Canary Islands",
+    "Population": 354757
+  },
+  {
+    "ID": 661,
+    "Name": "Murcia",
+    "CountryCode": "ESP",
+    "District": "Murcia",
+    "Population": 353504
+  },
+  {
+    "ID": 662,
+    "Name": "Palma de Mallorca",
+    "CountryCode": "ESP",
+    "District": "Balears",
+    "Population": 326993
+  },
+  {
+    "ID": 663,
+    "Name": "Valladolid",
+    "CountryCode": "ESP",
+    "District": "Castilla and LeÃ³n",
+    "Population": 319998
+  },
+  {
+    "ID": 664,
+    "Name": "CÃ³rdoba",
+    "CountryCode": "ESP",
+    "District": "Andalusia",
+    "Population": 311708
+  },
+  {
+    "ID": 665,
+    "Name": "Vigo",
+    "CountryCode": "ESP",
+    "District": "Galicia",
+    "Population": 283670
+  },
+  {
+    "ID": 666,
+    "Name": "Alicante [Alacant]",
+    "CountryCode": "ESP",
+    "District": "Valencia",
+    "Population": 272432
+  },
+  {
+    "ID": 667,
+    "Name": "GijÃ³n",
+    "CountryCode": "ESP",
+    "District": "Asturia",
+    "Population": 267980
+  },
+  {
+    "ID": 668,
+    "Name": "LÂ´Hospitalet de Llobregat",
+    "CountryCode": "ESP",
+    "District": "Katalonia",
+    "Population": 247986
+  },
+  {
+    "ID": 669,
+    "Name": "Granada",
+    "CountryCode": "ESP",
+    "District": "Andalusia",
+    "Population": 244767
+  },
+  {
+    "ID": 670,
+    "Name": "A CoruÃ±a (La CoruÃ±a)",
+    "CountryCode": "ESP",
+    "District": "Galicia",
+    "Population": 243402
+  },
+  {
+    "ID": 671,
+    "Name": "Vitoria-Gasteiz",
+    "CountryCode": "ESP",
+    "District": "Baskimaa",
+    "Population": 217154
+  },
+  {
+    "ID": 672,
+    "Name": "Santa Cruz de Tenerife",
+    "CountryCode": "ESP",
+    "District": "Canary Islands",
+    "Population": 213050
+  },
+  {
+    "ID": 673,
+    "Name": "Badalona",
+    "CountryCode": "ESP",
+    "District": "Katalonia",
+    "Population": 209635
+  },
+  {
+    "ID": 674,
+    "Name": "Oviedo",
+    "CountryCode": "ESP",
+    "District": "Asturia",
+    "Population": 200453
+  },
+  {
+    "ID": 675,
+    "Name": "MÃ³stoles",
+    "CountryCode": "ESP",
+    "District": "Madrid",
+    "Population": 195351
+  },
+  {
+    "ID": 676,
+    "Name": "Elche [Elx]",
+    "CountryCode": "ESP",
+    "District": "Valencia",
+    "Population": 193174
+  },
+  {
+    "ID": 677,
+    "Name": "Sabadell",
+    "CountryCode": "ESP",
+    "District": "Katalonia",
+    "Population": 184859
+  },
+  {
+    "ID": 678,
+    "Name": "Santander",
+    "CountryCode": "ESP",
+    "District": "Cantabria",
+    "Population": 184165
+  },
+  {
+    "ID": 679,
+    "Name": "Jerez de la Frontera",
+    "CountryCode": "ESP",
+    "District": "Andalusia",
+    "Population": 182660
+  },
+  {
+    "ID": 680,
+    "Name": "Pamplona [IruÃ±a]",
+    "CountryCode": "ESP",
+    "District": "Navarra",
+    "Population": 180483
+  },
+  {
+    "ID": 681,
+    "Name": "Donostia-San SebastiÃ¡n",
+    "CountryCode": "ESP",
+    "District": "Baskimaa",
+    "Population": 179208
+  },
+  {
+    "ID": 682,
+    "Name": "Cartagena",
+    "CountryCode": "ESP",
+    "District": "Murcia",
+    "Population": 177709
+  },
+  {
+    "ID": 683,
+    "Name": "LeganÃ©s",
+    "CountryCode": "ESP",
+    "District": "Madrid",
+    "Population": 173163
+  },
+  {
+    "ID": 684,
+    "Name": "Fuenlabrada",
+    "CountryCode": "ESP",
+    "District": "Madrid",
+    "Population": 171173
+  },
+  {
+    "ID": 685,
+    "Name": "AlmerÃ­a",
+    "CountryCode": "ESP",
+    "District": "Andalusia",
+    "Population": 169027
+  },
+  {
+    "ID": 686,
+    "Name": "Terrassa",
+    "CountryCode": "ESP",
+    "District": "Katalonia",
+    "Population": 168695
+  },
+  {
+    "ID": 687,
+    "Name": "AlcalÃ¡ de Henares",
+    "CountryCode": "ESP",
+    "District": "Madrid",
+    "Population": 164463
+  },
+  {
+    "ID": 688,
+    "Name": "Burgos",
+    "CountryCode": "ESP",
+    "District": "Castilla and LeÃ³n",
+    "Population": 162802
+  },
+  {
+    "ID": 689,
+    "Name": "Salamanca",
+    "CountryCode": "ESP",
+    "District": "Castilla and LeÃ³n",
+    "Population": 158720
+  },
+  {
+    "ID": 690,
+    "Name": "Albacete",
+    "CountryCode": "ESP",
+    "District": "Kastilia-La Mancha",
+    "Population": 147527
+  },
+  {
+    "ID": 691,
+    "Name": "Getafe",
+    "CountryCode": "ESP",
+    "District": "Madrid",
+    "Population": 145371
+  },
+  {
+    "ID": 692,
+    "Name": "CÃ¡diz",
+    "CountryCode": "ESP",
+    "District": "Andalusia",
+    "Population": 142449
+  },
+  {
+    "ID": 693,
+    "Name": "AlcorcÃ³n",
+    "CountryCode": "ESP",
+    "District": "Madrid",
+    "Population": 142048
+  },
+  {
+    "ID": 694,
+    "Name": "Huelva",
+    "CountryCode": "ESP",
+    "District": "Andalusia",
+    "Population": 140583
+  },
+  {
+    "ID": 695,
+    "Name": "LeÃ³n",
+    "CountryCode": "ESP",
+    "District": "Castilla and LeÃ³n",
+    "Population": 139809
+  },
+  {
+    "ID": 696,
+    "Name": "CastellÃ³n de la Plana [Castell",
+    "CountryCode": "ESP",
+    "District": "Valencia",
+    "Population": 139712
+  },
+  {
+    "ID": 697,
+    "Name": "Badajoz",
+    "CountryCode": "ESP",
+    "District": "Extremadura",
+    "Population": 136613
+  },
+  {
+    "ID": 698,
+    "Name": "[San CristÃ³bal de] la Laguna",
+    "CountryCode": "ESP",
+    "District": "Canary Islands",
+    "Population": 127945
+  },
+  {
+    "ID": 699,
+    "Name": "LogroÃ±o",
+    "CountryCode": "ESP",
+    "District": "La Rioja",
+    "Population": 127093
+  },
+  {
+    "ID": 700,
+    "Name": "Santa Coloma de Gramenet",
+    "CountryCode": "ESP",
+    "District": "Katalonia",
+    "Population": 120802
+  },
+  {
+    "ID": 701,
+    "Name": "Tarragona",
+    "CountryCode": "ESP",
+    "District": "Katalonia",
+    "Population": 113016
+  },
+  {
+    "ID": 702,
+    "Name": "Lleida (LÃ©rida)",
+    "CountryCode": "ESP",
+    "District": "Katalonia",
+    "Population": 112207
+  },
+  {
+    "ID": 703,
+    "Name": "JaÃ©n",
+    "CountryCode": "ESP",
+    "District": "Andalusia",
+    "Population": 109247
+  },
+  {
+    "ID": 704,
+    "Name": "Ourense (Orense)",
+    "CountryCode": "ESP",
+    "District": "Galicia",
+    "Population": 109120
+  },
+  {
+    "ID": 705,
+    "Name": "MatarÃ³",
+    "CountryCode": "ESP",
+    "District": "Katalonia",
+    "Population": 104095
+  },
+  {
+    "ID": 706,
+    "Name": "Algeciras",
+    "CountryCode": "ESP",
+    "District": "Andalusia",
+    "Population": 103106
+  },
+  {
+    "ID": 707,
+    "Name": "Marbella",
+    "CountryCode": "ESP",
+    "District": "Andalusia",
+    "Population": 101144
+  },
+  {
+    "ID": 708,
+    "Name": "Barakaldo",
+    "CountryCode": "ESP",
+    "District": "Baskimaa",
+    "Population": 98212
+  },
+  {
+    "ID": 709,
+    "Name": "Dos Hermanas",
+    "CountryCode": "ESP",
+    "District": "Andalusia",
+    "Population": 94591
+  },
+  {
+    "ID": 710,
+    "Name": "Santiago de Compostela",
+    "CountryCode": "ESP",
+    "District": "Galicia",
+    "Population": 93745
+  },
+  {
+    "ID": 711,
+    "Name": "TorrejÃ³n de Ardoz",
+    "CountryCode": "ESP",
+    "District": "Madrid",
+    "Population": 92262
+  },
+  {
+    "ID": 712,
+    "Name": "Cape Town",
+    "CountryCode": "ZAF",
+    "District": "Western Cape",
+    "Population": 2352121
+  },
+  {
+    "ID": 713,
+    "Name": "Soweto",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 904165
+  },
+  {
+    "ID": 714,
+    "Name": "Johannesburg",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 756653
+  },
+  {
+    "ID": 715,
+    "Name": "Port Elizabeth",
+    "CountryCode": "ZAF",
+    "District": "Eastern Cape",
+    "Population": 752319
+  },
+  {
+    "ID": 716,
+    "Name": "Pretoria",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 658630
+  },
+  {
+    "ID": 717,
+    "Name": "Inanda",
+    "CountryCode": "ZAF",
+    "District": "KwaZulu-Natal",
+    "Population": 634065
+  },
+  {
+    "ID": 718,
+    "Name": "Durban",
+    "CountryCode": "ZAF",
+    "District": "KwaZulu-Natal",
+    "Population": 566120
+  },
+  {
+    "ID": 719,
+    "Name": "Vanderbijlpark",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 468931
+  },
+  {
+    "ID": 720,
+    "Name": "Kempton Park",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 442633
+  },
+  {
+    "ID": 721,
+    "Name": "Alberton",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 410102
+  },
+  {
+    "ID": 722,
+    "Name": "Pinetown",
+    "CountryCode": "ZAF",
+    "District": "KwaZulu-Natal",
+    "Population": 378810
+  },
+  {
+    "ID": 723,
+    "Name": "Pietermaritzburg",
+    "CountryCode": "ZAF",
+    "District": "KwaZulu-Natal",
+    "Population": 370190
+  },
+  {
+    "ID": 724,
+    "Name": "Benoni",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 365467
+  },
+  {
+    "ID": 725,
+    "Name": "Randburg",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 341288
+  },
+  {
+    "ID": 726,
+    "Name": "Umlazi",
+    "CountryCode": "ZAF",
+    "District": "KwaZulu-Natal",
+    "Population": 339233
+  },
+  {
+    "ID": 727,
+    "Name": "Bloemfontein",
+    "CountryCode": "ZAF",
+    "District": "Free State",
+    "Population": 334341
+  },
+  {
+    "ID": 728,
+    "Name": "Vereeniging",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 328535
+  },
+  {
+    "ID": 729,
+    "Name": "Wonderboom",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 283289
+  },
+  {
+    "ID": 730,
+    "Name": "Roodepoort",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 279340
+  },
+  {
+    "ID": 731,
+    "Name": "Boksburg",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 262648
+  },
+  {
+    "ID": 732,
+    "Name": "Klerksdorp",
+    "CountryCode": "ZAF",
+    "District": "North West",
+    "Population": 261911
+  },
+  {
+    "ID": 733,
+    "Name": "Soshanguve",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 242727
+  },
+  {
+    "ID": 734,
+    "Name": "Newcastle",
+    "CountryCode": "ZAF",
+    "District": "KwaZulu-Natal",
+    "Population": 222993
+  },
+  {
+    "ID": 735,
+    "Name": "East London",
+    "CountryCode": "ZAF",
+    "District": "Eastern Cape",
+    "Population": 221047
+  },
+  {
+    "ID": 736,
+    "Name": "Welkom",
+    "CountryCode": "ZAF",
+    "District": "Free State",
+    "Population": 203296
+  },
+  {
+    "ID": 737,
+    "Name": "Kimberley",
+    "CountryCode": "ZAF",
+    "District": "Northern Cape",
+    "Population": 197254
+  },
+  {
+    "ID": 738,
+    "Name": "Uitenhage",
+    "CountryCode": "ZAF",
+    "District": "Eastern Cape",
+    "Population": 192120
+  },
+  {
+    "ID": 739,
+    "Name": "Chatsworth",
+    "CountryCode": "ZAF",
+    "District": "KwaZulu-Natal",
+    "Population": 189885
+  },
+  {
+    "ID": 740,
+    "Name": "Mdantsane",
+    "CountryCode": "ZAF",
+    "District": "Eastern Cape",
+    "Population": 182639
+  },
+  {
+    "ID": 741,
+    "Name": "Krugersdorp",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 181503
+  },
+  {
+    "ID": 742,
+    "Name": "Botshabelo",
+    "CountryCode": "ZAF",
+    "District": "Free State",
+    "Population": 177971
+  },
+  {
+    "ID": 743,
+    "Name": "Brakpan",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 171363
+  },
+  {
+    "ID": 744,
+    "Name": "Witbank",
+    "CountryCode": "ZAF",
+    "District": "Mpumalanga",
+    "Population": 167183
+  },
+  {
+    "ID": 745,
+    "Name": "Oberholzer",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 164367
+  },
+  {
+    "ID": 746,
+    "Name": "Germiston",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 164252
+  },
+  {
+    "ID": 747,
+    "Name": "Springs",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 162072
+  },
+  {
+    "ID": 748,
+    "Name": "Westonaria",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 159632
+  },
+  {
+    "ID": 749,
+    "Name": "Randfontein",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 120838
+  },
+  {
+    "ID": 750,
+    "Name": "Paarl",
+    "CountryCode": "ZAF",
+    "District": "Western Cape",
+    "Population": 105768
+  },
+  {
+    "ID": 751,
+    "Name": "Potchefstroom",
+    "CountryCode": "ZAF",
+    "District": "North West",
+    "Population": 101817
+  },
+  {
+    "ID": 752,
+    "Name": "Rustenburg",
+    "CountryCode": "ZAF",
+    "District": "North West",
+    "Population": 97008
+  },
+  {
+    "ID": 753,
+    "Name": "Nigel",
+    "CountryCode": "ZAF",
+    "District": "Gauteng",
+    "Population": 96734
+  },
+  {
+    "ID": 754,
+    "Name": "George",
+    "CountryCode": "ZAF",
+    "District": "Western Cape",
+    "Population": 93818
+  },
+  {
+    "ID": 755,
+    "Name": "Ladysmith",
+    "CountryCode": "ZAF",
+    "District": "KwaZulu-Natal",
+    "Population": 89292
+  },
+  {
+    "ID": 756,
+    "Name": "Addis Abeba",
+    "CountryCode": "ETH",
+    "District": "Addis Abeba",
+    "Population": 2495000
+  },
+  {
+    "ID": 757,
+    "Name": "Dire Dawa",
+    "CountryCode": "ETH",
+    "District": "Dire Dawa",
+    "Population": 164851
+  },
+  {
+    "ID": 758,
+    "Name": "Nazret",
+    "CountryCode": "ETH",
+    "District": "Oromia",
+    "Population": 127842
+  },
+  {
+    "ID": 759,
+    "Name": "Gonder",
+    "CountryCode": "ETH",
+    "District": "Amhara",
+    "Population": 112249
+  },
+  {
+    "ID": 760,
+    "Name": "Dese",
+    "CountryCode": "ETH",
+    "District": "Amhara",
+    "Population": 97314
+  },
+  {
+    "ID": 761,
+    "Name": "Mekele",
+    "CountryCode": "ETH",
+    "District": "Tigray",
+    "Population": 96938
+  },
+  {
+    "ID": 762,
+    "Name": "Bahir Dar",
+    "CountryCode": "ETH",
+    "District": "Amhara",
+    "Population": 96140
+  },
+  {
+    "ID": 763,
+    "Name": "Stanley",
+    "CountryCode": "FLK",
+    "District": "East Falkland",
+    "Population": 1636
+  },
+  {
+    "ID": 764,
+    "Name": "Suva",
+    "CountryCode": "FJI",
+    "District": "Central",
+    "Population": 77366
+  },
+  {
+    "ID": 765,
+    "Name": "Quezon",
+    "CountryCode": "PHL",
+    "District": "National Capital Reg",
+    "Population": 2173831
+  },
+  {
+    "ID": 766,
+    "Name": "Manila",
+    "CountryCode": "PHL",
+    "District": "National Capital Reg",
+    "Population": 1581082
+  },
+  {
+    "ID": 767,
+    "Name": "Kalookan",
+    "CountryCode": "PHL",
+    "District": "National Capital Reg",
+    "Population": 1177604
+  },
+  {
+    "ID": 768,
+    "Name": "Davao",
+    "CountryCode": "PHL",
+    "District": "Southern Mindanao",
+    "Population": 1147116
+  },
+  {
+    "ID": 769,
+    "Name": "Cebu",
+    "CountryCode": "PHL",
+    "District": "Central Visayas",
+    "Population": 718821
+  },
+  {
+    "ID": 770,
+    "Name": "Zamboanga",
+    "CountryCode": "PHL",
+    "District": "Western Mindanao",
+    "Population": 601794
+  },
+  {
+    "ID": 771,
+    "Name": "Pasig",
+    "CountryCode": "PHL",
+    "District": "National Capital Reg",
+    "Population": 505058
+  },
+  {
+    "ID": 772,
+    "Name": "Valenzuela",
+    "CountryCode": "PHL",
+    "District": "National Capital Reg",
+    "Population": 485433
+  },
+  {
+    "ID": 773,
+    "Name": "Las PiÃ±as",
+    "CountryCode": "PHL",
+    "District": "National Capital Reg",
+    "Population": 472780
+  },
+  {
+    "ID": 774,
+    "Name": "Antipolo",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 470866
+  },
+  {
+    "ID": 775,
+    "Name": "Taguig",
+    "CountryCode": "PHL",
+    "District": "National Capital Reg",
+    "Population": 467375
+  },
+  {
+    "ID": 776,
+    "Name": "Cagayan de Oro",
+    "CountryCode": "PHL",
+    "District": "Northern Mindanao",
+    "Population": 461877
+  },
+  {
+    "ID": 777,
+    "Name": "ParaÃ±aque",
+    "CountryCode": "PHL",
+    "District": "National Capital Reg",
+    "Population": 449811
+  },
+  {
+    "ID": 778,
+    "Name": "Makati",
+    "CountryCode": "PHL",
+    "District": "National Capital Reg",
+    "Population": 444867
+  },
+  {
+    "ID": 779,
+    "Name": "Bacolod",
+    "CountryCode": "PHL",
+    "District": "Western Visayas",
+    "Population": 429076
+  },
+  {
+    "ID": 780,
+    "Name": "General Santos",
+    "CountryCode": "PHL",
+    "District": "Southern Mindanao",
+    "Population": 411822
+  },
+  {
+    "ID": 781,
+    "Name": "Marikina",
+    "CountryCode": "PHL",
+    "District": "National Capital Reg",
+    "Population": 391170
+  },
+  {
+    "ID": 782,
+    "Name": "DasmariÃ±as",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 379520
+  },
+  {
+    "ID": 783,
+    "Name": "Muntinlupa",
+    "CountryCode": "PHL",
+    "District": "National Capital Reg",
+    "Population": 379310
+  },
+  {
+    "ID": 784,
+    "Name": "Iloilo",
+    "CountryCode": "PHL",
+    "District": "Western Visayas",
+    "Population": 365820
+  },
+  {
+    "ID": 785,
+    "Name": "Pasay",
+    "CountryCode": "PHL",
+    "District": "National Capital Reg",
+    "Population": 354908
+  },
+  {
+    "ID": 786,
+    "Name": "Malabon",
+    "CountryCode": "PHL",
+    "District": "National Capital Reg",
+    "Population": 338855
+  },
+  {
+    "ID": 787,
+    "Name": "San JosÃ© del Monte",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 315807
+  },
+  {
+    "ID": 788,
+    "Name": "Bacoor",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 305699
+  },
+  {
+    "ID": 789,
+    "Name": "Iligan",
+    "CountryCode": "PHL",
+    "District": "Central Mindanao",
+    "Population": 285061
+  },
+  {
+    "ID": 790,
+    "Name": "Calamba",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 281146
+  },
+  {
+    "ID": 791,
+    "Name": "Mandaluyong",
+    "CountryCode": "PHL",
+    "District": "National Capital Reg",
+    "Population": 278474
+  },
+  {
+    "ID": 792,
+    "Name": "Butuan",
+    "CountryCode": "PHL",
+    "District": "Caraga",
+    "Population": 267279
+  },
+  {
+    "ID": 793,
+    "Name": "Angeles",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 263971
+  },
+  {
+    "ID": 794,
+    "Name": "Tarlac",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 262481
+  },
+  {
+    "ID": 795,
+    "Name": "Mandaue",
+    "CountryCode": "PHL",
+    "District": "Central Visayas",
+    "Population": 259728
+  },
+  {
+    "ID": 796,
+    "Name": "Baguio",
+    "CountryCode": "PHL",
+    "District": "CAR",
+    "Population": 252386
+  },
+  {
+    "ID": 797,
+    "Name": "Batangas",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 247588
+  },
+  {
+    "ID": 798,
+    "Name": "Cainta",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 242511
+  },
+  {
+    "ID": 799,
+    "Name": "San Pedro",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 231403
+  },
+  {
+    "ID": 800,
+    "Name": "Navotas",
+    "CountryCode": "PHL",
+    "District": "National Capital Reg",
+    "Population": 230403
+  },
+  {
+    "ID": 801,
+    "Name": "Cabanatuan",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 222859
+  },
+  {
+    "ID": 802,
+    "Name": "San Fernando",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 221857
+  },
+  {
+    "ID": 803,
+    "Name": "Lipa",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 218447
+  },
+  {
+    "ID": 804,
+    "Name": "Lapu-Lapu",
+    "CountryCode": "PHL",
+    "District": "Central Visayas",
+    "Population": 217019
+  },
+  {
+    "ID": 805,
+    "Name": "San Pablo",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 207927
+  },
+  {
+    "ID": 806,
+    "Name": "BiÃ±an",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 201186
+  },
+  {
+    "ID": 807,
+    "Name": "Taytay",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 198183
+  },
+  {
+    "ID": 808,
+    "Name": "Lucena",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 196075
+  },
+  {
+    "ID": 809,
+    "Name": "Imus",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 195482
+  },
+  {
+    "ID": 810,
+    "Name": "Olongapo",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 194260
+  },
+  {
+    "ID": 811,
+    "Name": "Binangonan",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 187691
+  },
+  {
+    "ID": 812,
+    "Name": "Santa Rosa",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 185633
+  },
+  {
+    "ID": 813,
+    "Name": "Tagum",
+    "CountryCode": "PHL",
+    "District": "Southern Mindanao",
+    "Population": 179531
+  },
+  {
+    "ID": 814,
+    "Name": "Tacloban",
+    "CountryCode": "PHL",
+    "District": "Eastern Visayas",
+    "Population": 178639
+  },
+  {
+    "ID": 815,
+    "Name": "Malolos",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 175291
+  },
+  {
+    "ID": 816,
+    "Name": "Mabalacat",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 171045
+  },
+  {
+    "ID": 817,
+    "Name": "Cotabato",
+    "CountryCode": "PHL",
+    "District": "Central Mindanao",
+    "Population": 163849
+  },
+  {
+    "ID": 818,
+    "Name": "Meycauayan",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 163037
+  },
+  {
+    "ID": 819,
+    "Name": "Puerto Princesa",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 161912
+  },
+  {
+    "ID": 820,
+    "Name": "Legazpi",
+    "CountryCode": "PHL",
+    "District": "Bicol",
+    "Population": 157010
+  },
+  {
+    "ID": 821,
+    "Name": "Silang",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 156137
+  },
+  {
+    "ID": 822,
+    "Name": "Ormoc",
+    "CountryCode": "PHL",
+    "District": "Eastern Visayas",
+    "Population": 154297
+  },
+  {
+    "ID": 823,
+    "Name": "San Carlos",
+    "CountryCode": "PHL",
+    "District": "Ilocos",
+    "Population": 154264
+  },
+  {
+    "ID": 824,
+    "Name": "Kabankalan",
+    "CountryCode": "PHL",
+    "District": "Western Visayas",
+    "Population": 149769
+  },
+  {
+    "ID": 825,
+    "Name": "Talisay",
+    "CountryCode": "PHL",
+    "District": "Central Visayas",
+    "Population": 148110
+  },
+  {
+    "ID": 826,
+    "Name": "Valencia",
+    "CountryCode": "PHL",
+    "District": "Northern Mindanao",
+    "Population": 147924
+  },
+  {
+    "ID": 827,
+    "Name": "Calbayog",
+    "CountryCode": "PHL",
+    "District": "Eastern Visayas",
+    "Population": 147187
+  },
+  {
+    "ID": 828,
+    "Name": "Santa Maria",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 144282
+  },
+  {
+    "ID": 829,
+    "Name": "Pagadian",
+    "CountryCode": "PHL",
+    "District": "Western Mindanao",
+    "Population": 142515
+  },
+  {
+    "ID": 830,
+    "Name": "Cadiz",
+    "CountryCode": "PHL",
+    "District": "Western Visayas",
+    "Population": 141954
+  },
+  {
+    "ID": 831,
+    "Name": "Bago",
+    "CountryCode": "PHL",
+    "District": "Western Visayas",
+    "Population": 141721
+  },
+  {
+    "ID": 832,
+    "Name": "Toledo",
+    "CountryCode": "PHL",
+    "District": "Central Visayas",
+    "Population": 141174
+  },
+  {
+    "ID": 833,
+    "Name": "Naga",
+    "CountryCode": "PHL",
+    "District": "Bicol",
+    "Population": 137810
+  },
+  {
+    "ID": 834,
+    "Name": "San Mateo",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 135603
+  },
+  {
+    "ID": 835,
+    "Name": "Panabo",
+    "CountryCode": "PHL",
+    "District": "Southern Mindanao",
+    "Population": 133950
+  },
+  {
+    "ID": 836,
+    "Name": "Koronadal",
+    "CountryCode": "PHL",
+    "District": "Southern Mindanao",
+    "Population": 133786
+  },
+  {
+    "ID": 837,
+    "Name": "Marawi",
+    "CountryCode": "PHL",
+    "District": "Central Mindanao",
+    "Population": 131090
+  },
+  {
+    "ID": 838,
+    "Name": "Dagupan",
+    "CountryCode": "PHL",
+    "District": "Ilocos",
+    "Population": 130328
+  },
+  {
+    "ID": 839,
+    "Name": "Sagay",
+    "CountryCode": "PHL",
+    "District": "Western Visayas",
+    "Population": 129765
+  },
+  {
+    "ID": 840,
+    "Name": "Roxas",
+    "CountryCode": "PHL",
+    "District": "Western Visayas",
+    "Population": 126352
+  },
+  {
+    "ID": 841,
+    "Name": "Lubao",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 125699
+  },
+  {
+    "ID": 842,
+    "Name": "Digos",
+    "CountryCode": "PHL",
+    "District": "Southern Mindanao",
+    "Population": 125171
+  },
+  {
+    "ID": 843,
+    "Name": "San Miguel",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 123824
+  },
+  {
+    "ID": 844,
+    "Name": "Malaybalay",
+    "CountryCode": "PHL",
+    "District": "Northern Mindanao",
+    "Population": 123672
+  },
+  {
+    "ID": 845,
+    "Name": "Tuguegarao",
+    "CountryCode": "PHL",
+    "District": "Cagayan Valley",
+    "Population": 120645
+  },
+  {
+    "ID": 846,
+    "Name": "Ilagan",
+    "CountryCode": "PHL",
+    "District": "Cagayan Valley",
+    "Population": 119990
+  },
+  {
+    "ID": 847,
+    "Name": "Baliuag",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 119675
+  },
+  {
+    "ID": 848,
+    "Name": "Surigao",
+    "CountryCode": "PHL",
+    "District": "Caraga",
+    "Population": 118534
+  },
+  {
+    "ID": 849,
+    "Name": "San Carlos",
+    "CountryCode": "PHL",
+    "District": "Western Visayas",
+    "Population": 118259
+  },
+  {
+    "ID": 850,
+    "Name": "San Juan del Monte",
+    "CountryCode": "PHL",
+    "District": "National Capital Reg",
+    "Population": 117680
+  },
+  {
+    "ID": 851,
+    "Name": "Tanauan",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 117539
+  },
+  {
+    "ID": 852,
+    "Name": "Concepcion",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 115171
+  },
+  {
+    "ID": 853,
+    "Name": "Rodriguez (Montalban)",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 115167
+  },
+  {
+    "ID": 854,
+    "Name": "Sariaya",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 114568
+  },
+  {
+    "ID": 855,
+    "Name": "Malasiqui",
+    "CountryCode": "PHL",
+    "District": "Ilocos",
+    "Population": 113190
+  },
+  {
+    "ID": 856,
+    "Name": "General Mariano Alvarez",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 112446
+  },
+  {
+    "ID": 857,
+    "Name": "Urdaneta",
+    "CountryCode": "PHL",
+    "District": "Ilocos",
+    "Population": 111582
+  },
+  {
+    "ID": 858,
+    "Name": "Hagonoy",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 111425
+  },
+  {
+    "ID": 859,
+    "Name": "San Jose",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 111009
+  },
+  {
+    "ID": 860,
+    "Name": "Polomolok",
+    "CountryCode": "PHL",
+    "District": "Southern Mindanao",
+    "Population": 110709
+  },
+  {
+    "ID": 861,
+    "Name": "Santiago",
+    "CountryCode": "PHL",
+    "District": "Cagayan Valley",
+    "Population": 110531
+  },
+  {
+    "ID": 862,
+    "Name": "Tanza",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 110517
+  },
+  {
+    "ID": 863,
+    "Name": "Ozamis",
+    "CountryCode": "PHL",
+    "District": "Northern Mindanao",
+    "Population": 110420
+  },
+  {
+    "ID": 864,
+    "Name": "Mexico",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 109481
+  },
+  {
+    "ID": 865,
+    "Name": "San Jose",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 108254
+  },
+  {
+    "ID": 866,
+    "Name": "Silay",
+    "CountryCode": "PHL",
+    "District": "Western Visayas",
+    "Population": 107722
+  },
+  {
+    "ID": 867,
+    "Name": "General Trias",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 107691
+  },
+  {
+    "ID": 868,
+    "Name": "Tabaco",
+    "CountryCode": "PHL",
+    "District": "Bicol",
+    "Population": 107166
+  },
+  {
+    "ID": 869,
+    "Name": "Cabuyao",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 106630
+  },
+  {
+    "ID": 870,
+    "Name": "Calapan",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 105910
+  },
+  {
+    "ID": 871,
+    "Name": "Mati",
+    "CountryCode": "PHL",
+    "District": "Southern Mindanao",
+    "Population": 105908
+  },
+  {
+    "ID": 872,
+    "Name": "Midsayap",
+    "CountryCode": "PHL",
+    "District": "Central Mindanao",
+    "Population": 105760
+  },
+  {
+    "ID": 873,
+    "Name": "Cauayan",
+    "CountryCode": "PHL",
+    "District": "Cagayan Valley",
+    "Population": 103952
+  },
+  {
+    "ID": 874,
+    "Name": "Gingoog",
+    "CountryCode": "PHL",
+    "District": "Northern Mindanao",
+    "Population": 102379
+  },
+  {
+    "ID": 875,
+    "Name": "Dumaguete",
+    "CountryCode": "PHL",
+    "District": "Central Visayas",
+    "Population": 102265
+  },
+  {
+    "ID": 876,
+    "Name": "San Fernando",
+    "CountryCode": "PHL",
+    "District": "Ilocos",
+    "Population": 102082
+  },
+  {
+    "ID": 877,
+    "Name": "Arayat",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 101792
+  },
+  {
+    "ID": 878,
+    "Name": "Bayawan (Tulong)",
+    "CountryCode": "PHL",
+    "District": "Central Visayas",
+    "Population": 101391
+  },
+  {
+    "ID": 879,
+    "Name": "Kidapawan",
+    "CountryCode": "PHL",
+    "District": "Central Mindanao",
+    "Population": 101205
+  },
+  {
+    "ID": 880,
+    "Name": "Daraga (Locsin)",
+    "CountryCode": "PHL",
+    "District": "Bicol",
+    "Population": 101031
+  },
+  {
+    "ID": 881,
+    "Name": "Marilao",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 101017
+  },
+  {
+    "ID": 882,
+    "Name": "Malita",
+    "CountryCode": "PHL",
+    "District": "Southern Mindanao",
+    "Population": 100000
+  },
+  {
+    "ID": 883,
+    "Name": "Dipolog",
+    "CountryCode": "PHL",
+    "District": "Western Mindanao",
+    "Population": 99862
+  },
+  {
+    "ID": 884,
+    "Name": "Cavite",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 99367
+  },
+  {
+    "ID": 885,
+    "Name": "Danao",
+    "CountryCode": "PHL",
+    "District": "Central Visayas",
+    "Population": 98781
+  },
+  {
+    "ID": 886,
+    "Name": "Bislig",
+    "CountryCode": "PHL",
+    "District": "Caraga",
+    "Population": 97860
+  },
+  {
+    "ID": 887,
+    "Name": "Talavera",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 97329
+  },
+  {
+    "ID": 888,
+    "Name": "Guagua",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 96858
+  },
+  {
+    "ID": 889,
+    "Name": "Bayambang",
+    "CountryCode": "PHL",
+    "District": "Ilocos",
+    "Population": 96609
+  },
+  {
+    "ID": 890,
+    "Name": "Nasugbu",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 96113
+  },
+  {
+    "ID": 891,
+    "Name": "Baybay",
+    "CountryCode": "PHL",
+    "District": "Eastern Visayas",
+    "Population": 95630
+  },
+  {
+    "ID": 892,
+    "Name": "Capas",
+    "CountryCode": "PHL",
+    "District": "Central Luzon",
+    "Population": 95219
+  },
+  {
+    "ID": 893,
+    "Name": "Sultan Kudarat",
+    "CountryCode": "PHL",
+    "District": "ARMM",
+    "Population": 94861
+  },
+  {
+    "ID": 894,
+    "Name": "Laoag",
+    "CountryCode": "PHL",
+    "District": "Ilocos",
+    "Population": 94466
+  },
+  {
+    "ID": 895,
+    "Name": "Bayugan",
+    "CountryCode": "PHL",
+    "District": "Caraga",
+    "Population": 93623
+  },
+  {
+    "ID": 896,
+    "Name": "Malungon",
+    "CountryCode": "PHL",
+    "District": "Southern Mindanao",
+    "Population": 93232
+  },
+  {
+    "ID": 897,
+    "Name": "Santa Cruz",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 92694
+  },
+  {
+    "ID": 898,
+    "Name": "Sorsogon",
+    "CountryCode": "PHL",
+    "District": "Bicol",
+    "Population": 92512
+  },
+  {
+    "ID": 899,
+    "Name": "Candelaria",
+    "CountryCode": "PHL",
+    "District": "Southern Tagalog",
+    "Population": 92429
+  },
+  {
+    "ID": 900,
+    "Name": "Ligao",
+    "CountryCode": "PHL",
+    "District": "Bicol",
+    "Population": 90603
+  },
+  {
+    "ID": 901,
+    "Name": "TÃ³rshavn",
+    "CountryCode": "FRO",
+    "District": "Streymoyar",
+    "Population": 14542
+  },
+  {
+    "ID": 902,
+    "Name": "Libreville",
+    "CountryCode": "GAB",
+    "District": "Estuaire",
+    "Population": 419000
+  },
+  {
+    "ID": 903,
+    "Name": "Serekunda",
+    "CountryCode": "GMB",
+    "District": "Kombo St Mary",
+    "Population": 102600
+  },
+  {
+    "ID": 904,
+    "Name": "Banjul",
+    "CountryCode": "GMB",
+    "District": "Banjul",
+    "Population": 42326
+  },
+  {
+    "ID": 905,
+    "Name": "Tbilisi",
+    "CountryCode": "GEO",
+    "District": "Tbilisi",
+    "Population": 1235200
+  },
+  {
+    "ID": 906,
+    "Name": "Kutaisi",
+    "CountryCode": "GEO",
+    "District": "Imereti",
+    "Population": 240900
+  },
+  {
+    "ID": 907,
+    "Name": "Rustavi",
+    "CountryCode": "GEO",
+    "District": "Kvemo Kartli",
+    "Population": 155400
+  },
+  {
+    "ID": 908,
+    "Name": "Batumi",
+    "CountryCode": "GEO",
+    "District": "Adzaria [AtÂšara]",
+    "Population": 137700
+  },
+  {
+    "ID": 909,
+    "Name": "Sohumi",
+    "CountryCode": "GEO",
+    "District": "Abhasia [Aphazeti]",
+    "Population": 111700
+  },
+  {
+    "ID": 910,
+    "Name": "Accra",
+    "CountryCode": "GHA",
+    "District": "Greater Accra",
+    "Population": 1070000
+  },
+  {
+    "ID": 911,
+    "Name": "Kumasi",
+    "CountryCode": "GHA",
+    "District": "Ashanti",
+    "Population": 385192
+  },
+  {
+    "ID": 912,
+    "Name": "Tamale",
+    "CountryCode": "GHA",
+    "District": "Northern",
+    "Population": 151069
+  },
+  {
+    "ID": 913,
+    "Name": "Tema",
+    "CountryCode": "GHA",
+    "District": "Greater Accra",
+    "Population": 109975
+  },
+  {
+    "ID": 914,
+    "Name": "Sekondi-Takoradi",
+    "CountryCode": "GHA",
+    "District": "Western",
+    "Population": 103653
+  },
+  {
+    "ID": 915,
+    "Name": "Gibraltar",
+    "CountryCode": "GIB",
+    "District": "Â–",
+    "Population": 27025
+  },
+  {
+    "ID": 916,
+    "Name": "Saint GeorgeÂ´s",
+    "CountryCode": "GRD",
+    "District": "St George",
+    "Population": 4621
+  },
+  {
+    "ID": 917,
+    "Name": "Nuuk",
+    "CountryCode": "GRL",
+    "District": "Kitaa",
+    "Population": 13445
+  },
+  {
+    "ID": 918,
+    "Name": "Les Abymes",
+    "CountryCode": "GLP",
+    "District": "Grande-Terre",
+    "Population": 62947
+  },
+  {
+    "ID": 919,
+    "Name": "Basse-Terre",
+    "CountryCode": "GLP",
+    "District": "Basse-Terre",
+    "Population": 12433
+  },
+  {
+    "ID": 920,
+    "Name": "Tamuning",
+    "CountryCode": "GUM",
+    "District": "Â–",
+    "Population": 9500
+  },
+  {
+    "ID": 921,
+    "Name": "AgaÃ±a",
+    "CountryCode": "GUM",
+    "District": "Â–",
+    "Population": 1139
+  },
+  {
+    "ID": 922,
+    "Name": "Ciudad de Guatemala",
+    "CountryCode": "GTM",
+    "District": "Guatemala",
+    "Population": 823301
+  },
+  {
+    "ID": 923,
+    "Name": "Mixco",
+    "CountryCode": "GTM",
+    "District": "Guatemala",
+    "Population": 209791
+  },
+  {
+    "ID": 924,
+    "Name": "Villa Nueva",
+    "CountryCode": "GTM",
+    "District": "Guatemala",
+    "Population": 101295
+  },
+  {
+    "ID": 925,
+    "Name": "Quetzaltenango",
+    "CountryCode": "GTM",
+    "District": "Quetzaltenango",
+    "Population": 90801
+  },
+  {
+    "ID": 926,
+    "Name": "Conakry",
+    "CountryCode": "GIN",
+    "District": "Conakry",
+    "Population": 1090610
+  },
+  {
+    "ID": 927,
+    "Name": "Bissau",
+    "CountryCode": "GNB",
+    "District": "Bissau",
+    "Population": 241000
+  },
+  {
+    "ID": 928,
+    "Name": "Georgetown",
+    "CountryCode": "GUY",
+    "District": "Georgetown",
+    "Population": 254000
+  },
+  {
+    "ID": 929,
+    "Name": "Port-au-Prince",
+    "CountryCode": "HTI",
+    "District": "Ouest",
+    "Population": 884472
+  },
+  {
+    "ID": 930,
+    "Name": "Carrefour",
+    "CountryCode": "HTI",
+    "District": "Ouest",
+    "Population": 290204
+  },
+  {
+    "ID": 931,
+    "Name": "Delmas",
+    "CountryCode": "HTI",
+    "District": "Ouest",
+    "Population": 240429
+  },
+  {
+    "ID": 932,
+    "Name": "Le-Cap-HaÃ¯tien",
+    "CountryCode": "HTI",
+    "District": "Nord",
+    "Population": 102233
+  },
+  {
+    "ID": 933,
+    "Name": "Tegucigalpa",
+    "CountryCode": "HND",
+    "District": "Distrito Central",
+    "Population": 813900
+  },
+  {
+    "ID": 934,
+    "Name": "San Pedro Sula",
+    "CountryCode": "HND",
+    "District": "CortÃ©s",
+    "Population": 383900
+  },
+  {
+    "ID": 935,
+    "Name": "La Ceiba",
+    "CountryCode": "HND",
+    "District": "AtlÃ¡ntida",
+    "Population": 89200
+  },
+  {
+    "ID": 936,
+    "Name": "Kowloon and New Kowloon",
+    "CountryCode": "HKG",
+    "District": "Kowloon and New Kowl",
+    "Population": 1987996
+  },
+  {
+    "ID": 937,
+    "Name": "Victoria",
+    "CountryCode": "HKG",
+    "District": "Hongkong",
+    "Population": 1312637
+  },
+  {
+    "ID": 938,
+    "Name": "Longyearbyen",
+    "CountryCode": "SJM",
+    "District": "LÃ¤nsimaa",
+    "Population": 1438
+  },
+  {
+    "ID": 939,
+    "Name": "Jakarta",
+    "CountryCode": "IDN",
+    "District": "Jakarta Raya",
+    "Population": 9604900
+  },
+  {
+    "ID": 940,
+    "Name": "Surabaya",
+    "CountryCode": "IDN",
+    "District": "East Java",
+    "Population": 2663820
+  },
+  {
+    "ID": 941,
+    "Name": "Bandung",
+    "CountryCode": "IDN",
+    "District": "West Java",
+    "Population": 2429000
+  },
+  {
+    "ID": 942,
+    "Name": "Medan",
+    "CountryCode": "IDN",
+    "District": "Sumatera Utara",
+    "Population": 1843919
+  },
+  {
+    "ID": 943,
+    "Name": "Palembang",
+    "CountryCode": "IDN",
+    "District": "Sumatera Selatan",
+    "Population": 1222764
+  },
+  {
+    "ID": 944,
+    "Name": "Tangerang",
+    "CountryCode": "IDN",
+    "District": "West Java",
+    "Population": 1198300
+  },
+  {
+    "ID": 945,
+    "Name": "Semarang",
+    "CountryCode": "IDN",
+    "District": "Central Java",
+    "Population": 1104405
+  },
+  {
+    "ID": 946,
+    "Name": "Ujung Pandang",
+    "CountryCode": "IDN",
+    "District": "Sulawesi Selatan",
+    "Population": 1060257
+  },
+  {
+    "ID": 947,
+    "Name": "Malang",
+    "CountryCode": "IDN",
+    "District": "East Java",
+    "Population": 716862
+  },
+  {
+    "ID": 948,
+    "Name": "Bandar Lampung",
+    "CountryCode": "IDN",
+    "District": "Lampung",
+    "Population": 680332
+  },
+  {
+    "ID": 949,
+    "Name": "Bekasi",
+    "CountryCode": "IDN",
+    "District": "West Java",
+    "Population": 644300
+  },
+  {
+    "ID": 950,
+    "Name": "Padang",
+    "CountryCode": "IDN",
+    "District": "Sumatera Barat",
+    "Population": 534474
+  },
+  {
+    "ID": 951,
+    "Name": "Surakarta",
+    "CountryCode": "IDN",
+    "District": "Central Java",
+    "Population": 518600
+  },
+  {
+    "ID": 952,
+    "Name": "Banjarmasin",
+    "CountryCode": "IDN",
+    "District": "Kalimantan Selatan",
+    "Population": 482931
+  },
+  {
+    "ID": 953,
+    "Name": "Pekan Baru",
+    "CountryCode": "IDN",
+    "District": "Riau",
+    "Population": 438638
+  },
+  {
+    "ID": 954,
+    "Name": "Denpasar",
+    "CountryCode": "IDN",
+    "District": "Bali",
+    "Population": 435000
+  },
+  {
+    "ID": 955,
+    "Name": "Yogyakarta",
+    "CountryCode": "IDN",
+    "District": "Yogyakarta",
+    "Population": 418944
+  },
+  {
+    "ID": 956,
+    "Name": "Pontianak",
+    "CountryCode": "IDN",
+    "District": "Kalimantan Barat",
+    "Population": 409632
+  },
+  {
+    "ID": 957,
+    "Name": "Samarinda",
+    "CountryCode": "IDN",
+    "District": "Kalimantan Timur",
+    "Population": 399175
+  },
+  {
+    "ID": 958,
+    "Name": "Jambi",
+    "CountryCode": "IDN",
+    "District": "Jambi",
+    "Population": 385201
+  },
+  {
+    "ID": 959,
+    "Name": "Depok",
+    "CountryCode": "IDN",
+    "District": "West Java",
+    "Population": 365200
+  },
+  {
+    "ID": 960,
+    "Name": "Cimahi",
+    "CountryCode": "IDN",
+    "District": "West Java",
+    "Population": 344600
+  },
+  {
+    "ID": 961,
+    "Name": "Balikpapan",
+    "CountryCode": "IDN",
+    "District": "Kalimantan Timur",
+    "Population": 338752
+  },
+  {
+    "ID": 962,
+    "Name": "Manado",
+    "CountryCode": "IDN",
+    "District": "Sulawesi Utara",
+    "Population": 332288
+  },
+  {
+    "ID": 963,
+    "Name": "Mataram",
+    "CountryCode": "IDN",
+    "District": "Nusa Tenggara Barat",
+    "Population": 306600
+  },
+  {
+    "ID": 964,
+    "Name": "Pekalongan",
+    "CountryCode": "IDN",
+    "District": "Central Java",
+    "Population": 301504
+  },
+  {
+    "ID": 965,
+    "Name": "Tegal",
+    "CountryCode": "IDN",
+    "District": "Central Java",
+    "Population": 289744
+  },
+  {
+    "ID": 966,
+    "Name": "Bogor",
+    "CountryCode": "IDN",
+    "District": "West Java",
+    "Population": 285114
+  },
+  {
+    "ID": 967,
+    "Name": "Ciputat",
+    "CountryCode": "IDN",
+    "District": "West Java",
+    "Population": 270800
+  },
+  {
+    "ID": 968,
+    "Name": "Pondokgede",
+    "CountryCode": "IDN",
+    "District": "West Java",
+    "Population": 263200
+  },
+  {
+    "ID": 969,
+    "Name": "Cirebon",
+    "CountryCode": "IDN",
+    "District": "West Java",
+    "Population": 254406
+  },
+  {
+    "ID": 970,
+    "Name": "Kediri",
+    "CountryCode": "IDN",
+    "District": "East Java",
+    "Population": 253760
+  },
+  {
+    "ID": 971,
+    "Name": "Ambon",
+    "CountryCode": "IDN",
+    "District": "Molukit",
+    "Population": 249312
+  },
+  {
+    "ID": 972,
+    "Name": "Jember",
+    "CountryCode": "IDN",
+    "District": "East Java",
+    "Population": 218500
+  },
+  {
+    "ID": 973,
+    "Name": "Cilacap",
+    "CountryCode": "IDN",
+    "District": "Central Java",
+    "Population": 206900
+  },
+  {
+    "ID": 974,
+    "Name": "Cimanggis",
+    "CountryCode": "IDN",
+    "District": "West Java",
+    "Population": 205100
+  },
+  {
+    "ID": 975,
+    "Name": "Pematang Siantar",
+    "CountryCode": "IDN",
+    "District": "Sumatera Utara",
+    "Population": 203056
+  },
+  {
+    "ID": 976,
+    "Name": "Purwokerto",
+    "CountryCode": "IDN",
+    "District": "Central Java",
+    "Population": 202500
+  },
+  {
+    "ID": 977,
+    "Name": "Ciomas",
+    "CountryCode": "IDN",
+    "District": "West Java",
+    "Population": 187400
+  },
+  {
+    "ID": 978,
+    "Name": "Tasikmalaya",
+    "CountryCode": "IDN",
+    "District": "West Java",
+    "Population": 179800
+  },
+  {
+    "ID": 979,
+    "Name": "Madiun",
+    "CountryCode": "IDN",
+    "District": "East Java",
+    "Population": 171532
+  },
+  {
+    "ID": 980,
+    "Name": "Bengkulu",
+    "CountryCode": "IDN",
+    "District": "Bengkulu",
+    "Population": 146439
+  },
+  {
+    "ID": 981,
+    "Name": "Karawang",
+    "CountryCode": "IDN",
+    "District": "West Java",
+    "Population": 145000
+  },
+  {
+    "ID": 982,
+    "Name": "Banda Aceh",
+    "CountryCode": "IDN",
+    "District": "Aceh",
+    "Population": 143409
+  },
+  {
+    "ID": 983,
+    "Name": "Palu",
+    "CountryCode": "IDN",
+    "District": "Sulawesi Tengah",
+    "Population": 142800
+  },
+  {
+    "ID": 984,
+    "Name": "Pasuruan",
+    "CountryCode": "IDN",
+    "District": "East Java",
+    "Population": 134019
+  },
+  {
+    "ID": 985,
+    "Name": "Kupang",
+    "CountryCode": "IDN",
+    "District": "Nusa Tenggara Timur",
+    "Population": 129300
+  },
+  {
+    "ID": 986,
+    "Name": "Tebing Tinggi",
+    "CountryCode": "IDN",
+    "District": "Sumatera Utara",
+    "Population": 129300
+  },
+  {
+    "ID": 987,
+    "Name": "Percut Sei Tuan",
+    "CountryCode": "IDN",
+    "District": "Sumatera Utara",
+    "Population": 129000
+  },
+  {
+    "ID": 988,
+    "Name": "Binjai",
+    "CountryCode": "IDN",
+    "District": "Sumatera Utara",
+    "Population": 127222
+  },
+  {
+    "ID": 989,
+    "Name": "Sukabumi",
+    "CountryCode": "IDN",
+    "District": "West Java",
+    "Population": 125766
+  },
+  {
+    "ID": 990,
+    "Name": "Waru",
+    "CountryCode": "IDN",
+    "District": "East Java",
+    "Population": 124300
+  },
+  {
+    "ID": 991,
+    "Name": "Pangkal Pinang",
+    "CountryCode": "IDN",
+    "District": "Sumatera Selatan",
+    "Population": 124000
+  },
+  {
+    "ID": 992,
+    "Name": "Magelang",
+    "CountryCode": "IDN",
+    "District": "Central Java",
+    "Population": 123800
+  },
+  {
+    "ID": 993,
+    "Name": "Blitar",
+    "CountryCode": "IDN",
+    "District": "East Java",
+    "Population": 122600
+  },
+  {
+    "ID": 994,
+    "Name": "Serang",
+    "CountryCode": "IDN",
+    "District": "West Java",
+    "Population": 122400
+  },
+  {
+    "ID": 995,
+    "Name": "Probolinggo",
+    "CountryCode": "IDN",
+    "District": "East Java",
+    "Population": 120770
+  },
+  {
+    "ID": 996,
+    "Name": "Cilegon",
+    "CountryCode": "IDN",
+    "District": "West Java",
+    "Population": 117000
+  },
+  {
+    "ID": 997,
+    "Name": "Cianjur",
+    "CountryCode": "IDN",
+    "District": "West Java",
+    "Population": 114300
+  },
+  {
+    "ID": 998,
+    "Name": "Ciparay",
+    "CountryCode": "IDN",
+    "District": "West Java",
+    "Population": 111500
+  },
+  {
+    "ID": 999,
+    "Name": "Lhokseumawe",
+    "CountryCode": "IDN",
+    "District": "Aceh",
+    "Population": 109600
+  },
+  {
+    "ID": 1000,
+    "Name": "Taman",
+    "CountryCode": "IDN",
+    "District": "East Java",
+    "Population": 107000
+  }
+]
