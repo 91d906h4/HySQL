@@ -1,5 +1,7 @@
 # HySQL
 
+## Syntax
+
 ### 1. SELECT
 
 The `SELECT` statement is used to select data from a database.
