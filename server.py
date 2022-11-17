@@ -31,6 +31,7 @@ def error(e):
         "Info": str(e)
     })
 
+# Run python ./server.py <port> to start database server
 if len(sys.argv) < 2: port = 8000
 else: port = sys.argv[1]
 server.run(port=port)
