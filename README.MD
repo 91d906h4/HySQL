@@ -107,9 +107,9 @@ The database generated :
 ```json
 [
     {
-        'Name': 'Pinus resinosa',
-        'Kingdom': 'Plantae',
-        'Clade': 'Tracheophytes'
+        "Name": "Pinus resinosa,
+        "Kingdom": "Plantae",
+        "Clade": "Tracheophytes"
     }
 ]
 ```
