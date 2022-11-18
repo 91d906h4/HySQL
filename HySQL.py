@@ -165,6 +165,7 @@ class HySQL:
             if self.query['ORDER'][0] != 'BY': error('Syntax Error', '"ORDER" must used with "BY".')
             self.query['ORDER'] = self.query['ORDER'][1:]
             l, n, temp = len(self.query['ORDER']), 0, []
+            if l == 1: self.query['ORDER'].append('ASC')
             while n < l:
                 if self.query['ORDER'][n + 1] not in ['ASC', 'DESC']:
                     temp.append(['ASC', self.query['ORDER'][n]])
@@ -282,9 +283,11 @@ class HySQL:
                     for sets in query['SET']: dataset[i][sets[0]] = sets[1]
 
             # Store to database
-            with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps(dataset))
-
-            print(f'Updated successfully.')
+            try:
+                with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps(dataset))
+                print(f'Updated successfully.')
+                return True
+            except: return False
 
         if mode == 'INSERT':
             path = query['INSERT'][1]
@@ -305,9 +308,11 @@ class HySQL:
             dataset += [{x: y for x, y in zip(query['INSERT'], query['VALUE'])}]
 
             # Store to database
-            with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps(dataset))
-
-            print(f'Inserted successfully.')
+            try:
+                with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps([dataset]))
+                print(f'Inserted successfully.')
+                return True
+            except: return False
 
         if mode == 'DELETE':
             path = query['FROM'][0]
@@ -342,9 +347,11 @@ class HySQL:
             dataset = [x for x in dataset if x != '']
 
             # Store to database
-            with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps(dataset))
-
-            print(f'Deleted successfully.')
+            try:
+                with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps(dataset))
+                print(f'Deleted successfully.')
+                return True
+            except: return False
 
         if mode == 'CREATE':
             path = query['CREATE'][1]
@@ -358,6 +365,7 @@ class HySQL:
             try:
                 with open(f'./database/{path}.table', 'w') as f: f.write(json.dumps([dataset]))
                 print(f'Created table "{path}" successfully.')
+                return True
             except: error('Fatal', f'Failed to create table "{path}".')
 
         if mode == 'DROP':
@@ -368,5 +376,8 @@ class HySQL:
             for table in query['DROP']:
                 if not os.path.isfile(f'./database/{table}.table'): error('Error', f'Table {table} not found.', ifExit=False)
                 else:
-                    os.remove(f'./database/{table}.table')
-                    print(f'Table {table} has been droped successfully.')
+                    try:
+                        os.remove(f'./database/{table}.table')
+                        print(f'Table {table} has been droped successfully.')
+                        return True
+                    except: return False
