@@ -1,5 +1,9 @@
 # HySQL
 
+## Website
+
+http://hysql.rf.gd/
+
 ## Syntax
 
 ### 1. SELECT
@@ -129,7 +133,3 @@ For example :
 ```sql
 DROP TABLE tree, class, employee
 ```
-
-## Website
-
-http://hysql.rf.gd/
