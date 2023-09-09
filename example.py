@@ -18,7 +18,8 @@ sql.LIMIT(10)
 
 # Same as
 
-query = "SELECT * FROM city WHERE CountryCode != 'AFG' ORDER BY Population, ID DESC LIMIT 10"
+query = "SELECT * FROM city WHERE CountryCode != 'AFG' \
+ORDER BY Population, ID DESC LIMIT 10"
 # result = HySQL(query).excute(view=False)
 
 print(f'Excution time: {time.time() - start_time} s')
